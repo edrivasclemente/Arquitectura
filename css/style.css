@@ -1,0 +1,77 @@
+
+@import url("bootstrap.min.css");
+
+@font-face {
+    font-family: 'Multi-Black';
+    src: url('../fonts/Multi-Black.ttf') format('truetype'),
+         url('../fonts/Multi-BlackItalic.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Multi-Bold';
+    src: url('../fonts/Multi-Bold.ttf') format('truetype'),
+         url('../fonts/Multi-BoldItalic.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Multi-ExtraBold';
+    src: url('../fonts/Multi-ExtraBold.ttf') format('truetype'),
+         url('../fonts/Multi-ExtraBoldItalic.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Multi-ExtraLight';
+    src: url('../fonts/Multi-ExtraLight.ttf') format('truetype'),
+         url('../fonts/Multi-ExtraLightItalic.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Multi-Italic';
+    src: url('../fonts/Multi-Italic.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Multi-Light';
+    src: url('../fonts/Multi-Light.ttf') format('truetype'),
+         url('../fonts/Multi-LightItalic.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Multi-Regular';
+    src: url('../fonts/Multi-Regular.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Multi-SemiBold';
+    src: url('../fonts/Multi-SemiBold.ttf') format('truetype'),
+         url('../fonts/Multi-SemiBoldItalic.ttf') format('truetype');        
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "Multi-Regular";
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Multi-Bold";
+}
+
+p{
+    font-family: 'Multi-Regular';
+    font-size: 1.15em;
+}
