@@ -1,77 +1,155 @@
 
-@import url("bootstrap.min.css");
-
 @font-face {
-    font-family: 'Multi-Black';
-    src: url('../fonts/Multi-Black.ttf') format('truetype'),
-         url('../fonts/Multi-BlackItalic.ttf') format('truetype');        
+    font-family: 'Muli-Black';
+    src: url('../fonts/Muli-Black.ttf') format('truetype'),
+         url('../fonts/Muli-BlackItalic.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Multi-Bold';
-    src: url('../fonts/Multi-Bold.ttf') format('truetype'),
-         url('../fonts/Multi-BoldItalic.ttf') format('truetype');        
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype'),
+         url('../fonts/Muli-BoldItalic.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Multi-ExtraBold';
-    src: url('../fonts/Multi-ExtraBold.ttf') format('truetype'),
-         url('../fonts/Multi-ExtraBoldItalic.ttf') format('truetype');        
+    font-family: 'Muli-ExtraBold';
+    src: url('../fonts/Muli-ExtraBold.ttf') format('truetype'),
+         url('../fonts/Muli-ExtraBoldItalic.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Multi-ExtraLight';
-    src: url('../fonts/Multi-ExtraLight.ttf') format('truetype'),
-         url('../fonts/Multi-ExtraLightItalic.ttf') format('truetype');        
+    font-family: 'Muli-ExtraLight';
+    src: url('../fonts/Muli-ExtraLight.ttf') format('truetype'),
+         url('../fonts/Muli-ExtraLightItalic.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Multi-Italic';
-    src: url('../fonts/Multi-Italic.ttf') format('truetype');        
+    font-family: 'Muli-Italic';
+    src: url('../fonts/Muli-Italic.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Multi-Light';
-    src: url('../fonts/Multi-Light.ttf') format('truetype'),
-         url('../fonts/Multi-LightItalic.ttf') format('truetype');        
+    font-family: 'Muli-Light';
+    src: url('../fonts/Muli-Light.ttf') format('truetype'),
+         url('../fonts/Muli-LightItalic.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Multi-Regular';
-    src: url('../fonts/Multi-Regular.ttf') format('truetype');        
+    font-family: 'Muli-Regular';
+    src: url('fonts/Muli-Regular.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Multi-SemiBold';
-    src: url('../fonts/Multi-SemiBold.ttf') format('truetype'),
-         url('../fonts/Multi-SemiBoldItalic.ttf') format('truetype');        
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype'),
+         url('../fonts/Muli-SemiBoldItalic.ttf') format('truetype');        
     font-weight: normal;
     font-style: normal;
+}
+
+
+.nav-item:hover{
+    border-bottom: solid 2px yellow;
+}
+
+.nav-link{
+    font-family: "Muli-ExtraBold";
+    font-size: 16pt;
+}
+
+.page-header{
+    background-color: #f2f2f4;
+    height: 550px;
+    margin-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 body{
-    font-family: "Multi-Regular";
+    font-family: "Muli-Regular";
+    font-size: 18pt;
+    color: #4F4F4F;
+    
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "Multi-Bold";
+    font-family: "Muli-Bold " !important;
+}
+
+h1{
+    font-family: "Muli-ExtraBold " !important;
+    font-size: 60pt;
+    color: #333333;
+}
+
+h2{
+    font-size: 45pt;
+}
+.btn{
+    font-size: 12pt;
 }
 
 p{
-    font-family: 'Multi-Regular';
-    font-size: 1.15em;
+    font-size: 16px !important;
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+.bienvenido{
+    margin-bottom: 40px;
+    padding-bottom: 80px;
+}
+.oferta{
+    background-color: #f2f2f4;
+    height: 550px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 80px;  
+    padding-bottom: 80px;
+}
+
+.carrera{
+background-color:yellow;
+height: 350px;
+padding-right: 0px;
+}
+.tcarrera{
+    position: absolute;
+    bottom: 18px;
+    
+}
+.icarrera{
+    width: 260px;
+    height: 350px;
+    padding-left: 0px;
+}
+
+.title-footer {
+    color: rgba(221, 221, 221, 0.87);
+    font-size: 14pt;
+    font-family: "Muli-ExtraBold " !important;
+    position: relative;
+    margin: 0 0 20px;
+}
+
+address{
+    font-size: 14px;
 }
