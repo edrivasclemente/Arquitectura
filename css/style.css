@@ -150,9 +150,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-    font-family: Muli;
-    font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 60px;
     line-height: 118.8%;
 }
@@ -173,10 +171,6 @@ h4{
     mix-blend-mode: normal;
 }
 
-/*.btn{
-    font-size: 12pt;
-}*/
-
 p{
     font-family: Muli;
     font-style: normal;
@@ -192,15 +186,13 @@ hr {
     margin-bottom: 3rem;
 }
 
-
-
 .bienvenido{
     margin-bottom: 40px;
     padding-bottom: 80px;
 }
 .oferta{
-    background-color: #f2f2f4;
-    height: 550px;
+    background: #FBFBF6;
+    height:805px;
     margin-top: 40px;
     margin-bottom: 40px;
     padding-top: 80px;  
@@ -208,9 +200,10 @@ hr {
 }
 
 .carrera{
-background-color:#FBFF37;
-height: 350px;
-padding-right: 0px;
+    width: 270px;
+    background-color:#FBFF37;
+    height: 400px;
+    padding-right: 0px;
 }
 .tcarrera{
     position: absolute;
@@ -218,8 +211,8 @@ padding-right: 0px;
     
 }
 .icarrera{
-    width: 260px;
-    height: 350px;
+    width: 270px;
+    height: 400px;
     padding-left: 0px;
 }
 
