@@ -225,6 +225,18 @@ hr {
 	padding-left: 0px;
 }
 
+.carousel{
+	margin:70px 0px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	width: 150px;
+}
+
+.fa-chevron-right, .fa-chevron-left{
+	color: #000;
+}
+
 .title-footer {
     font-family: Muli;
     font-style: normal;
