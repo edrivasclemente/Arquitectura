@@ -78,7 +78,6 @@
     letter-spacing: 1px;
 }
 
-
 .nav-item{
     font-family: Muli;
     font-style: normal;
@@ -101,7 +100,6 @@
     margin-bottom: 40px;
     padding-bottom: 80px;
     background-image: url(../img/architecture.jpg);
-
 }
 
 .btn-aplical{
@@ -112,7 +110,6 @@
     color: #F2C94C;
     border: 2px solid #F2C94C;
     border-radius: 0px;
-
 }
 
 .btnyellow{
@@ -126,16 +123,26 @@
     font-size: 12px;
     letter-spacing: 1px;
 }
-.btnblue{
+
+.btnblue {
     background: #001970;
     border-radius: 36px;
-    color: #ffffff
+    color: #ffffff;
     text-transform: uppercase;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 1px;
     border-color: transparent;
+}
+
+.title-page{
+    background-color: #FAFF00;
+    height: 150px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 body{
@@ -152,21 +159,18 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-weight: 800;
     font-size: 60px;
-    line-height: 118.8%;
-}
+    line-height: 118.8%;}
 
 h2{
     font-size: 45pt;
 }
 
 h4{
-    font-family: Mplus 1p;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 207.9%;
     /* or 37px */
-
     letter-spacing: 3px;
     mix-blend-mode: normal;
 }
@@ -243,4 +247,18 @@ address{
     /* Gray 2 */
 
     color: #4F4F4F;
+}
+
+/*escuela-laboratorio*/
+.laboratorio{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background: #FBFBF6;
+    padding: 50px 150px;
+}
+
+.lab{
+    width: 420px;
+    height: 464px;
+    opacity: 0.9;
 }
