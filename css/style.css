@@ -94,14 +94,17 @@
     color: #FFFFFF !important;
 }
 
-.page-header{
+header {
     background-color: #f2f2f4;
-    height: 666px;;
+    height: 666px;
     margin-bottom: 40px;
     padding-bottom: 80px;
     background-image: url(../img/architecture.jpg);
 }
-
+.img-bienvenido{
+	margin-left: auto;
+    display: block;
+}
 .btn-aplical{
     font-weight: bold;
     font-size: 12px;
