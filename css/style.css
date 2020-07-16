@@ -95,10 +95,6 @@
 }
 
 header {
-    background-color: #f2f2f4;
-    height: 666px;
-    margin-bottom: 40px;
-    padding-bottom: 80px;
     background-image: url(../img/architecture.jpg);
 }
 .img-bienvenido{
@@ -216,7 +212,7 @@ hr {
 .tcarrera{
     position: absolute;
     bottom: 55px;
-    left: 35px;
+    left: 50px;
     
 }
 .icarrera{
@@ -259,8 +255,18 @@ address{
     font-size: 14px;
     line-height: 200%;
     /* or 28px */
-
     color: #4F4F4F;
+}
+.tel-footer, .mail-footer {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 16px;
+}
+.social-icons-wrapper{
+    font-size: 14px;
+}
+.icon-fa{
+    margin: 0 5px;
 }
 
 /*escuela-laboratorio*/
