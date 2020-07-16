@@ -62,40 +62,39 @@
      </nav>
    </div>
     <!--fin navbar-2-->
-      <div class="container-fluid text-center title-page">          
+      <div class="container-fluid text-center title-page ">          
             <h1>Escuela</h1>
       </div>
 
-      <div class="container">
+      <div class="container mt-5 mb-5">
           <h2>Historia</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, corporis atque! Delectus doloribus sit dicta velit labore! Minima vitae debitis quae possimus voluptatem accusamus, ipsa repudiandae, ad natus officia mollitia delectus hic impedit cum ab nobis veniam cumque! Commodi quas quaerat culpa deleniti tempora soluta officiis ex quis animi laborum!</p>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <img src="https://source.unsplash.com/400x400?construction" />
+                      </div>
+                      <div class="col-md-6">
+                          <img src="https://source.unsplash.com/400x400?architect" />
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="https://source.unsplash.com/400x400?construction" />
-                    </div>
-                    <div class="col-md-6">
-                        <img src="https://source.unsplash.com/400x400?architect" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 <!--instalaciones-->
-<div class="container laboratorio">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="row">
-				<div class="col-md-6" style="padding-right: 0px;">
+				<div class="col-md-6">
           <p>instalaciones</p>
           <h2>Laboratorios</h2>
           <img class="lab" src="img/architect.jpg" alt="">
           <p>Laboratorio de intervención, modelado y simulación urbana</p>
 				</div>
-				<div class="col-md-6" style="padding-left: 0px;">
+				<div class="col-md-6">
           <img class="lab" src="img/architect.jpg" alt="">
           <p>Laboratorio BI</p>
           <img class="lab" src="img/architect.jpg" alt="">
@@ -103,7 +102,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+  </div>
+</div>
 </div>
 <!--fin instalaciones-->
 <!--footer-->
@@ -112,7 +112,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-3 block-footer">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<h4 class="title-footer">CAMPUS DE SANTIAGO</h4>
 					<address>
 						Autopista Duarte Km 1 1/2<br>
@@ -121,7 +121,7 @@
 						<abbr title="Fax">Fax:</abbr> (809) 582-4549
 						</address>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 block-footer">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<h4 class="title-footer">CAMPUS DE SANTO DOMINGO</h4>
 					<address>
 						Abraham Lincoln esq. Simón Bolívar. 
@@ -130,22 +130,21 @@
 						<abbr title="Fax">Fax:</abbr> (809) 534-7060
 						</address>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 block-footer">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<h4 class="title-footer">LÍNEA DE ATENCIÓN</h4>
-					<a href="tel:(809) 200 1962 ">1(809) 200 1962</a>
-					<br>
-					<a class="mail" href="mailto:info@pucmm.edu.do">info@pucmm.edu.do</a>
+					<span class="tel-footer">1(809) 200 1962</span>
+					<span class="mail-footer"><a class="mail" href="mailto:info@pucmm.edu.do">info@pucmm.edu.do</a></span>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 block-footer">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<h4 class="title-footer">SÍGUENOS</h4>
 					<div class="social-icons-wrapper">
-						<a class="" href="http://www.facebook.com/pucmm/">
+						<a class="icon-fa" href="http://www.facebook.com/pucmm/" target="_blank">
 							<i class="fab fa-facebook-f"></i></a>
-						<a class="" href="http://www.instagram.com/pucmm">
+						<a class="icon-fa" href="http://www.instagram.com/pucmm" target="_blank">
 							<i class="fab fa-instagram"></i></a>
-						<a class="" href="http://www.youtube.com/pucmmtv/">
+						<a class="icon-fa" href="http://www.youtube.com/pucmmtv/" target="_blank">
 								<i class="fab fa-youtube"></i></a>
-						<a class="" href="http://twitter.com/pucmm/">
+						<a class="icon-fa" href="http://twitter.com/pucmm/" target="_blank">
 								<i class="fab fa-twitter"></i></a>
 				</div>
 				</div>
@@ -160,6 +159,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a5d8c794e5.js" crossorigin="anonymous"></script>
-  </body>
+	<script src="https://kit.fontawesome.com/a5d8c794e5.js" crossorigin="anonymous"></script>
+	<script src="js/Lightbox.js"></script>
+</body>
 </html>

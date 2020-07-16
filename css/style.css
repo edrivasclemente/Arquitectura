@@ -67,7 +67,6 @@
     height: 130px;
 }
 .superior-menu{
-
     top: 28px;
 }
 .supmenu > li{
@@ -147,7 +146,7 @@ header {
 
 body{
     font-family: "Muli-Regular";
-    font-size: 18pt;
+    font-size: 18px;
     color: #4F4F4F;
     
 }
