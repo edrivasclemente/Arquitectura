@@ -72,6 +72,15 @@
     color: #FFFFFF !important;
 }
 
+.title-page{
+    background-color: #FAFF00;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
 body{
     font-family: "Muli-Regular";
     font-size: 18px;
@@ -89,7 +98,11 @@ h1{
 }
 .carrera{
     background-color:#FBFF37;
+    padding: 0px;
+    align-items: center !important;
+    display: flex !important;
 }
+
 .icarrera{
     width: 270px;
     height: 400px;

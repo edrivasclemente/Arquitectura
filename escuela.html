@@ -11,59 +11,53 @@
     <title>Escuela</title>
   </head>
   <body>
-       <!--navbar-1-->
-<div class="container">
-    <nav class="navbar navbar-expand-lg">
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto">
-           <li class="nav-item active">
-             <a class="nav-link" href="#">Mi Campus <span class="sr-only">(current)</span></a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#">Correo Estudiantil</a>
-           </li>
-         </ul>
-       </div>
-     </nav>
-   
-    <!--fin navbar-1-->
-     <!--navbar-2-->
-     <nav class="navbar navbar-expand-lg">	
-      <a class="navbar-brand" href="index.html">
-        <img class="logo" src="img/Logo-Esc-Arq.png"  alt="">
-      </a>
-   
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-     
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto">
-           <li class="nav-item active">
-             <a class="nav-link" href="#">Escuela <span class="sr-only">(current)</span></a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#">Académico</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#">Carreras</a>
-           </li>
-           <li class="nav-item active">
-               <a class="nav-link" href="#">Recursos</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="#">Investigación</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="#">Contactos</a>
-             </li>
-         </ul>
-       </div>
-     </nav>
-   </div>
-    <!--fin navbar-2-->
+<!--HEADER-->
+<header class="jumbotron jumbotron-fluid">
+  <div class="container d-flex justify-content-end supmenu">
+    <a class="" href="https://micampus.pucmm.edu.do/psp/cs92pro/?cmd=login&languageCd=ESP&" target="_blank">Mi Campus</a>
+    <a class="" href="https://outlook.com/ce.pucmm.edu.do" target="_blank">Correo Electronico</a>
+    <a class="icon-fa" href="http://www.facebook.com/pucmm/" target="_blank">
+        <i class="fab fa-facebook-f"></i></a>
+    <a class="icon-fa" href="http://www.instagram.com/pucmm" target="_blank">
+          <i class="fab fa-instagram"></i></a>
+    <a class="icon-fa" href="http://www.youtube.com/pucmmtv/" target="_blank">
+            <i class="fab fa-youtube"></i></a>
+    <a class="icon-fa" href="http://twitter.com/pucmm/" target="_blank">
+            <i class="fab fa-twitter"></i></a>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/Logo-Esc-Arq.png" width="450" height="130" class="d-inline-block align-top img-fluid" alt=""/>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="escuela.html">Escuela <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Académico</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Carreras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Investigación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contactos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!--FIN HEADER-->    
       <div class="container-fluid text-center title-page ">          
-            <h1>Escuela</h1>
+            <h1 class="mb-0">Escuela</h1>
       </div>
 
       <div class="container mt-5 mb-5">
@@ -73,10 +67,10 @@
               <div class="col-md-12">
                   <div class="row">
                       <div class="col-md-6">
-                          <img src="https://source.unsplash.com/400x400?construction" />
+                          <img class="img-fluid" src="https://source.unsplash.com/400x400?construction" />
                       </div>
                       <div class="col-md-6">
-                          <img src="https://source.unsplash.com/400x400?architect" />
+                          <img class="img-fluid" src="https://source.unsplash.com/400x400?architect" />
                       </div>
                   </div>
               </div>
@@ -91,13 +85,13 @@
 				<div class="col-md-6">
           <p>instalaciones</p>
           <h2>Laboratorios</h2>
-          <img class="lab" src="img/architect.jpg" alt="">
+          <img class="lab img-fluid" src="img/architect.jpg" alt="">
           <p>Laboratorio de intervención, modelado y simulación urbana</p>
 				</div>
 				<div class="col-md-6">
-          <img class="lab" src="img/architect.jpg" alt="">
+          <img class="lab img-fluid" src="img/architect.jpg" alt="">
           <p>Laboratorio BI</p>
-          <img class="lab" src="img/architect.jpg" alt="">
+          <img class="lab img-fluid" src="img/architect.jpg" alt="">
           <p>Laboratorio de fabricación digital </p>
 				</div>
 			</div>
@@ -106,54 +100,57 @@
 </div>
 </div>
 <!--fin instalaciones-->
-<!--footer-->
-<div class="container">
-	<hr>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-3 ">
-					<h4 class="title-footer">CAMPUS DE SANTIAGO</h4>
-					<address>
-						Autopista Duarte Km 1 1/2<br>
-						Santiago, República Dominicana<br>
-						<abbr title="Teléfono">Tel.:</abbr> <a href="8095801962">(809) 580-1962</a><br>
-						<abbr title="Fax">Fax:</abbr> (809) 582-4549
-						</address>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 ">
-					<h4 class="title-footer">CAMPUS DE SANTO DOMINGO</h4>
-					<address>
-						Abraham Lincoln esq. Simón Bolívar. 
-						Santo Domingo, República Dominicana.<br>
-						<abbr title="Teléfono">Tel.:</abbr><a href="tel:8095350111">(809) 535-0111</a><br>
-						<abbr title="Fax">Fax:</abbr> (809) 534-7060
-						</address>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 ">
-					<h4 class="title-footer">LÍNEA DE ATENCIÓN</h4>
-					<span class="tel-footer">1(809) 200 1962</span>
-					<span class="mail-footer"><a class="mail" href="mailto:info@pucmm.edu.do">info@pucmm.edu.do</a></span>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 ">
-					<h4 class="title-footer">SÍGUENOS</h4>
-					<div class="social-icons-wrapper">
-						<a class="icon-fa" href="http://www.facebook.com/pucmm/" target="_blank">
-							<i class="fab fa-facebook-f"></i></a>
-						<a class="icon-fa" href="http://www.instagram.com/pucmm" target="_blank">
-							<i class="fab fa-instagram"></i></a>
-						<a class="icon-fa" href="http://www.youtube.com/pucmmtv/" target="_blank">
-								<i class="fab fa-youtube"></i></a>
-						<a class="icon-fa" href="http://twitter.com/pucmm/" target="_blank">
-								<i class="fab fa-twitter"></i></a>
-				</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr>
-</div>
-<!--fin footer-->
+<!--FOOTER-->
+<section>
+  <footer class="footer-wrapper">
+    <div class="container">
+      <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-12 mb-4">
+                <h6>Campus de Santiago</h6>
+                <div>
+                    <span>Autopista Duarte Km. 1 1/2<br>Santiago, República Dominicana</span>
+                    <br>
+                    <span>Tel.: (809) 580-1962</span>
+                    <br>
+                    <span>Fax: (809) 582-4549</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <h6>Campus de Santo Domingo</h6>
+                <div>
+                    <span>Abraham Lincoln esq. Simón Bolívar<br>Santo Domingo, República Dominicana</span>
+                    <br>
+                    <span>Tel.: (809) 535-0111</span>
+                    <br>
+                    <span>Fax: (809) 534-7060</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <h6>Línea de atención</h6>
+                <div>
+                    <span>Tel.: 1(809) 200 1962</span>
+                    <br>
+                    <a href="#">info@pucmm.edu.do</a><br>
+                    <a class="icon-fa" href="http://www.facebook.com/pucmm/" target="_blank">
+                      <i class="fab fa-facebook-f"></i></a>
+                    <a class="icon-fa" href="http://www.instagram.com/pucmm" target="_blank">
+                      <i class="fab fa-instagram"></i></a>
+                    <a class="icon-fa" href="http://www.youtube.com/pucmmtv/" target="_blank">
+                        <i class="fab fa-youtube"></i></a>
+                    <a class="icon-fa" href="http://twitter.com/pucmm/" target="_blank">
+                        <i class="fab fa-twitter"></i></a>
+                </div>
+            </div>            
+        </div>    
+        <hr>    
+        <div class="copyright col-md-12 col-sm-12">
+          <span>© 2019 Escuela de Arquitectura y Diseño de Interiorismo</span>
+      </div>
+    </div>
+</footer>
+</section>
+<!--FIN FOOTER-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
