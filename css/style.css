@@ -180,7 +180,7 @@ h1{
 .carousel-control-prev, .carousel-control-next{
     display: flex;
     align-items: flex-end;
-    bottom: -40px;
+    color:  #ffffff !important;
 }
 
 }
