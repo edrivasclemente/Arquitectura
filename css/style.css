@@ -56,7 +56,8 @@
   }
 .supmenu a{
     color: #ffffff;
-    margin-right: 18px;
+    padding: 10px 15px;
+
 }
 .nav-item, .supmenu a{
     font-family: Muli-SemiBold;
@@ -175,6 +176,39 @@ h1{
 .icon-fa{
     margin-right: 10px;
 }
+
+
+
+
+.install-col{
+    padding: 0px !important;
+}
+.instalaciones-container {
+    position: relative;
+    overflow: hidden;
+    margin:0;
+    border-radius: 2px;
+
+}
+
+
+.instalaciones-detail {
+    position: absolute;
+    bottom: 35px;
+    z-index: 9000;
+    color: #ffffff;
+    left: 5px;
+    right: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 576px) { 
