@@ -113,6 +113,22 @@ h1{
     text-transform: uppercase;
 }
 
+.btn-warning{
+    background-color:#FBFF37;
+    border-color:#FBFF37;
+}
+
+
+.btn-outline-warning {
+    color: #FBFF37;
+    border-color: #FBFF37;
+}
+.btn-outline-warning:hover {
+    color: #000000;
+    background-color: #FBFF37;
+    border-color: #FBFF37;
+}
+
 .title-footer {
     font-family: Muli;
     font-style: normal;
