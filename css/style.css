@@ -98,15 +98,8 @@ h1{
 }
 .carrera{
     background-color:#FBFF37;
-    padding: 0px;
     align-items: center !important;
     display: flex !important;
-}
-
-.icarrera{
-    width: 270px;
-    height: 400px;
-	padding-left: 0px;
 }
 
 .carousel-control-next, .carousel-control-prev{
@@ -165,3 +158,11 @@ h1{
 .icon-fa{
     margin-right: 10px;
 }
+
+
+/* @media (max-width: 576px) { 
+    .icarrera{
+        padding-left: auto !important;
+    }
+
+} */
