@@ -177,9 +177,10 @@ h1{
 
 
 @media (max-width: 576px) { 
-.fa-chevron-left, .fa-chevron-right{
+.carousel-control-prev, .carousel-control-next{
     display: flex;
     align-items: flex-end;
+    bottom: -40px;
 }
 
 }
