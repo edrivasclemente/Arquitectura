@@ -176,9 +176,10 @@ h1{
 }
 
 
-/* @media (max-width: 576px) { 
-    .icarrera{
-        padding-left: auto !important;
-    }
+@media (max-width: 576px) { 
+.fa-chevron-left, .fa-chevron-right{
+    display: flex;
+    align-items: flex-end;
+}
 
-} */
+}
