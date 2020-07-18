@@ -105,7 +105,7 @@ h1{
 .carousel-control-next, .carousel-control-prev{
 	width: 150px;
 }
-.fa-chevron-left, .fa-chevron-right{
+.carousel-control-prev, .carousel-control-next{
     color: #000000 !important;
 }
 
