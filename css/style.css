@@ -107,6 +107,7 @@ h1{
 }
 .carousel-control-prev, .carousel-control-next{
     color: #000000 !important;
+    font-size: 30px;
 }
 
 .btn{
