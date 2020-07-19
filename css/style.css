@@ -56,7 +56,7 @@
   }
 .supmenu a{
     color: #ffffff;
-    padding: 10px 15px;
+    padding: 10px
 
 }
 .nav-item, .supmenu a{
@@ -90,17 +90,14 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Muli-Bold " !important;
+    font-weight: 800;
 }
 
 h1{
-    font-weight: 800;
     font-size: 60px;
     margin-bottom: .5em !important;
 }
 h2{
-    font-family: Muli;
-    font-style: normal;
-    font-weight: 800;
     font-size: 45px;
     line-height: 56px;
 }
@@ -109,6 +106,16 @@ h2{
     background-color:#FBFF37;
     align-items: center !important;
     display: flex !important;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.tcarrera{
+    position: absolute;
+    bottom: 35px;
+    z-index: 9000;
+    width: 60%;
 }
 
 .carousel-control-next, .carousel-control-prev{
@@ -211,6 +218,8 @@ h2{
 
 .card{
     border: none;
+    background-color: transparent;
+
 }
 p.card-text{
     border-bottom: solid 2px  #FBFF37 !important;
@@ -231,7 +240,4 @@ p.card-text{
     padding: 10px 0;
 }
 
-}
-.card{
-    background-color: transparent;
 }
