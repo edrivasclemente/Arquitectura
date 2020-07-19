@@ -109,11 +109,6 @@ background-repeat: no-repeat;
 
 .carrera{
     background-color:#FBFF37;
-    align-items: center !important;
-    display: flex !important;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
 }
 
 .tcarrera{
