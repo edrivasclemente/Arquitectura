@@ -214,7 +214,6 @@ h2{
 }
 p.card-text{
     border-bottom: solid 2px  #FBFF37 !important;
-    width: 75%;
     padding: 10px 0;
 }
 
@@ -232,4 +231,7 @@ p.card-text{
     padding: 10px 0;
 }
 
+}
+.card{
+    background-color: transparent;
 }
