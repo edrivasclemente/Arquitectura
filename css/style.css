@@ -133,17 +133,20 @@ background-repeat: no-repeat;
 
 .btn{
     text-transform: uppercase;
+    margin-right: 20px;
 }
 
 .btn-warning{
     background-color:#FBFF37;
     border-color:#FBFF37;
+
 }
 
 
 .btn-outline-warning {
     color: #FBFF37;
     border-color: #FBFF37;
+
 }
 .btn-outline-warning:hover {
     color: #000000;
