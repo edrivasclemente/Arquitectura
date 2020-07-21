@@ -1,254 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/Lightbox.css">
-
-  <title>Arquitectura</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Arquitectura</title>
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <ul class="list-inline menu-superior">
+                <li class="list-inline-item"><a
+                        href="https://micampus.pucmm.edu.do/psp/cs92pro/?cmd=login&languageCd=ESP&">Mi
+                        Campus</a></li>
+                <li class="list-inline-item"><a href="https://outlook.com/ce.pucmm.edu.do">Correo Electronico</a></li>
+                <li class="list-inline-item"><a href="http://www.facebook.com/pucmm/"><i
+                            class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="http://www.instagram.com/pucmm"><i
+                            class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="http://www.youtube.com/pucmmtv/"><i
+                            class="fab fa-youtube"></i></a></li>
+            </ul>
 
-  <!--HEADER-->
-  <header class="header jumbotron jumbotron-fluid">
-    <div class="container supmenu d-flex justify-content-end">
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="https://micampus.pucmm.edu.do/psp/cs92pro/?cmd=login&languageCd=ESP&">Mi
-            Campus</a></li>
-        <li class="list-inline-item"><a href="https://outlook.com/ce.pucmm.edu.do">Correo Electronico</a></li>
-        <li class="list-inline-item"><a href="http://www.facebook.com/pucmm/"><i class="fab fa-facebook-f"></i></a></li>
-        <li class="list-inline-item"><a href="http://www.instagram.com/pucmm"><i class="fab fa-instagram"></i></a></li>
-        <li class="list-inline-item"><a href="http://www.youtube.com/pucmmtv/"><i class="fab fa-youtube"></i></a></li>
 
-      </ul>
-    </div>
+            <nav class="navbar navbar-expand-lg">
+                <!-- Image and text -->
+                <nav class="navbar">
+                    <a class="navbar-brand logo-brand" href="#">
+                        <img src="/img/Logo-Esc-Arq.png" class="d-inline-block align-top  img-fluid" alt=""></a>
+                </nav>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
 
-    <nav class="navbar navbar-expand-lg container">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/Logo-Esc-Arq.png" width="450" height="130" class="d-inline-block align-top img-fluid" alt="" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="escuela.html">Escuela <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="equipo.html">Equipo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Carreras</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Investigación</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contactos</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--nombre carrera-->
-    <div class="container my-5 text-white">
-      <h3>Escuela de</h3>
-      <h1 style="color: #ffffff !important;">Arquitectura y Diseño</h1>
-      <a href="https://www.pucmm.edu.do/admisiones/aplicar-grado" class="btn btn-outline-warning btn-aplical">Aplica en
-        Linea >></a>
-    </div>
-    <!--fin nombre carrera-->
-  </header>
-  <!--FIN HEADER-->
-
-  <!--BIENVENIDO-->
-  <section class="bg-bienvenido">
-    <div class="container mt-5 mb-5">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-6 d-flex justify-content-end">
-          <img class="img-fluid" src="https://source.unsplash.com/400x400?pen" alt="">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="escuela.html">Escuela</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Académico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Carreras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Investigación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div class="col-md-5">
-          <h2>Bienvenidos a la Escuela</h2>
-          <p>La Facultad de Ciencias Económicas y Administrativas de la Pontificia Universidad Católica Madre y Maestra
-            tiene la visión de liderar la formación de profesionales altamente calificados y capaces en sus respectivas
-            disciplinas, con una educación integral, de clase mundial, apoyando e instruyendo en la educación; de nuevos
-            elementos en el conocimiento y modelos mediante la investigación.</p>
-          <a href="" class="btn btn-warning">Conoce Más</a>
+        <div class="container align-items-center title-esc">
+            <h2>Escuela de</h2>
+            <h1>Arquitectura y Diseño</h1>
+            <a class="btn btn-outline-warning btn-outline-yellow" href="">APLICA EN LINEA >></a>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--FIN BIENVENIDO-->
-
-  <!--CARRERAS-->
-  <section>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="text-center">
-        <h3>Oferta Académica</h3>
-        <h1>Carreras</h1>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+    </header>
+<!--BIENVENIDA-->
+    <section class="bgcontainer">
+        <div class="container my-5">
             <div class="row">
-              <div class="col-md-6 mb-5">
+                <div class="col-md-6 ">
+                    <img class="img-fluid img-bienvenido" src="https://source.unsplash.com/400x550?pen" alt="">
+                </div>
+                <div class="col-md-5 my-auto">
+                    <h2>Bienvenidos a la Escuela</h2>
+                    <p class="my-5">La Facultad de Ciencias Económicas y Administrativas de la Pontificia Universidad
+                        Católica Madre y Maestra tiene la visión de liderar la formación de profesionales altamente
+                        calificados y capaces en sus respectivas disciplinas, con una educación integral, de clase
+                        mundial, apoyando e instruyendo en la educación; de nuevos elementos en el conocimiento y
+                        modelos mediante la investigación.</p>
+                    <a class="btn btn-warning btnyellow" href="">Conoce Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--FIN BIENVENIDA-->
+<!--OFERTA ACADEMICA-->
+    <section>
+        <div class="jumbotron">
+            <h2 class="text-center">Oferta Académica</h2>
+            <h1 class="text-center">Carreras</h1>
+            <div class="container my-5">
                 <div class="row">
-                  <div class="col-xs-12 col-md-5 carrera">
-                    <h3 class="tcarrera">Arquitectura</h3>
-                  </div>
-                  <div class="col-xs-12 col-md-6 icarrera p-0">
-                    <img class="icarrera img-fluid" src="https://source.unsplash.com/400x400?pen">
-                  </div>
+                    <div class="col-md-3 bgcarrera">
+                        <h3 class="title-carrera">Arquitectura</h3>
+                    </div>
+                    <div class="col-md-3 col-img-carrera">
+                        <img class="img-fluid img-carrera" src="https://source.unsplash.com/250x400?pen" alt="">
+                    </div>
+                    <div class="col-md-3 bgcarrera">
+                        <h3 class="title-carrera">Diseño e Interiorismo</h3>
+                    </div>
+                    <div class="col-md-3 col-img-carrera">
+                        <img class="img-fluid img-carrera" src="https://source.unsplash.com/250x400?pen" alt="">
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-6 mb-5">
+            </div>
+        </div>
+    </section>
+<!--FIN OFERTA ACADEMICA-->
+    <!--PROYECTOS-->
+    <section class="bgcontainer-proy">
+        <div class="container-fluid mt-5 mb-5">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>LOREN IMPSUM</h4>
+                                    <h1>Proyectos</h1>
+                                    <h3>3° Encuentro Latinoamericano Introducción a la Enseñanza de la Arquitectura</h3>
+                                    <p>La Facultad de Arquitectura, Construcción y Diseño de la Universidad del Bío Bío,
+                                        sus Laboratorios
+                                        de Gobierno Local y Estudios Urbanos [LEU], invitan al 9º Encuentro de Diseño
+                                        Urbano de la Red
+                                        Académica de Diseño Urbano [READU],</p>
+                                    <a href="" class="btn btn-warning btnyellow mt-2 mb-2">Conoce Más</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid d-block w-100"
+                                        src="https://source.unsplash.com/400x400?planning">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>LOREN IMPSUM</h4>
+                                    <h1>Proyectos</h1>
+                                    <h3>4° Encuentro Latinoamericano Introducción a la Enseñanza de la Arquitectura</h3>
+                                    <p>La Facultad de Arquitectura, Construcción y Diseño de la Universidad del Bío Bío,
+                                        sus Laboratorios
+                                        de Gobierno Local y Estudios Urbanos [LEU], invitan al 9º Encuentro de Diseño
+                                        Urbano de la Red
+                                        Académica de Diseño Urbano [READU],</p>
+                                    <a href="" class="btn btn-warning btnyellow mt-2 mb-2">Conoce Más</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid d-block w-100"
+                                        src="https://source.unsplash.com/400x400?planning">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>LOREN IMPSUM</h4>
+                                    <h1>Proyectos</h1>
+                                    <h3>5° Encuentro Latinoamericano Introducción a la Enseñanza de la Arquitectura</h3>
+                                    <p>La Facultad de Arquitectura, Construcción y Diseño de la Universidad del Bío Bío,
+                                        sus Laboratorios
+                                        de Gobierno Local y Estudios Urbanos [LEU], invitan al 9º Encuentro de Diseño
+                                        Urbano de la Red
+                                        Académica de Diseño Urbano [READU],</p>
+                                    <a href="" class="btn btn-warning btnyellow mt-2 mb-2">Conoce Más</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid d-block w-100" src="https://source.unsplash.com/400x400?pen">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span><i class="fas fa-chevron-left"></i></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--FIN PROYECTOS-->
+
+    <!--INSTALACIONES-->
+    <section>
+        <div class="jumbotron jumbotron-fluid">
+            <h3 class="text-center">LOREN IPSUM</h3>
+            <h1 class="text-center">Instalaciones</h1>
+            <div class="container d-flex justify-content-center">
                 <div class="row">
-                  <div class="col-xs-12 col-md-5 carrera">
-                    <h3 class="tcarrera">Diseño e Interiorismo</h3>
-                  </div>
-                  <div class="col-xs-12 col-md-6 icarrera p-0">
-                    <img class="icarrera img-fluid" src="https://source.unsplash.com/400x400?interior-design">
-                  </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-container">
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h2>Campus</h2>
+                                </a>
+                                <a href="#">
+                                    <p>de Santiago</p>
+                                </a>
+                            </div>
+                            <img src="https://source.unsplash.com/400x400?architecture" class="img-fluid"
+                                alt="Portfolio 01">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-container">
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h2>Campus</h2>
+                                </a>
+                                <a href="#">
+                                    <p>de Santo Domingo</p>
+                                </a>
+                            </div>
+                            <img src="https://source.unsplash.com/400x400?pen" class="img-fluid" alt="Portfolio 02">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-container">
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h2>Campus</h2>
+                                </a>
+                                <a href="#">
+                                    <p>de Puerto Plata</p>
+                                </a>
+                            </div>
+                            <img src="https://source.unsplash.com/400x400?pen" class="img-fluid" alt="Portfolio 03">
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--FIN CARRERAS-->
-
-  <!--PROYECTOS-->
-  <section>
-    <div class="container-fluid mt-5 mb-5">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <h4>LOREN IMPSUM</h4>
-                  <h1>Proyectos</h1>
-                  <h3>3° Encuentro Latinoamericano Introducción a la Enseñanza de la Arquitectura</h3>
-                  <p>La Facultad de Arquitectura, Construcción y Diseño de la Universidad del Bío Bío, sus Laboratorios
-                    de Gobierno Local y Estudios Urbanos [LEU], invitan al 9º Encuentro de Diseño Urbano de la Red
-                    Académica de Diseño Urbano [READU],</p>
-                  <a href="" class="btn btn-warning mt-2 mb-2">Conoce Más</a>
-                </div>
-                <div class="col-md-6">
-                  <img class="img-fluid d-block w-100" src="https://source.unsplash.com/400x400?planning">
-                </div>
-              </div>
+    </section>
+    <!--FIN INSTALACIONES-->
+<!--MOVILIDAD ESTUDIANTIL-->
+<section class="bgcontainer-mov">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6 ">
+                <img class="img-fluid img-bienvenido" src="/img/chica-internacional.png" alt="">
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <h4>LOREN IMPSUM</h4>
-                  <h1>Proyectos</h1>
-                  <h3>4° Encuentro Latinoamericano Introducción a la Enseñanza de la Arquitectura</h3>
-                  <p>La Facultad de Arquitectura, Construcción y Diseño de la Universidad del Bío Bío, sus Laboratorios
-                    de Gobierno Local y Estudios Urbanos [LEU], invitan al 9º Encuentro de Diseño Urbano de la Red
-                    Académica de Diseño Urbano [READU],</p>
-                  <a href="" class="btn btn-warning mt-2 mb-2">Conoce Más</a>
-                </div>
-                <div class="col-md-6">
-                  <img class="img-fluid d-block w-100" src="https://source.unsplash.com/400x400?planning">
-                </div>
-              </div>
+            <div class="col-md-5 my-auto">
+                <h3>MOVILIDAD ESTUDIANTIL</h3>
+                <h1>Experiencia internacional</h1>
+                <p class="my-5">En un mundo donde la preparación y las experiencias personales han adquirido relevancia para insertarse en un mundo laboral cada vez más global, es importante participar en actividades, programas y vivencias internacionales que ayuden a desarrollar</p>
+                <a class="btn btn-warning btnyellow" href="">VER PROGRAMAS</a>
+                <a class="btn btn-primary btnblue" href="">Conoce Más</a>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <h4>LOREN IMPSUM</h4>
-                  <h1>Proyectos</h1>
-                  <h3>5° Encuentro Latinoamericano Introducción a la Enseñanza de la Arquitectura</h3>
-                  <p>La Facultad de Arquitectura, Construcción y Diseño de la Universidad del Bío Bío, sus Laboratorios
-                    de Gobierno Local y Estudios Urbanos [LEU], invitan al 9º Encuentro de Diseño Urbano de la Red
-                    Académica de Diseño Urbano [READU],</p>
-                  <a href="" class="btn btn-warning mt-2 mb-2">Conoce Más</a>
-                </div>
-                <div class="col-md-6">
-                  <img class="img-fluid d-block w-100" src="https://source.unsplash.com/400x400?pen">
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span><i class="fas fa-chevron-left"></i></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span><i class="fas fa-chevron-right"></i></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
     </div>
-  </section>
-  <!--FIN PROYECTOS-->
-
-  <!--INSTALACIONES-->
-  <div class="jumbotron jumbotron-fluid mt-5 mb-5">
-    <div class="text-center">
-      <h3>Lorem</h3>
-      <h1>Instalaciones</h1>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col col-md-4"><img class="img-fluid" src="https://source.unsplash.com/400x400?construction"></div>
-        <div class="col col-md-4"><img class="img-fluid" src="https://source.unsplash.com/400x400?architect"></div>
-        <div class="col col-md-4"><img class="img-fluid" src="https://source.unsplash.com/400x400?planning"></div>
-      </div>
-    </div>
-  </div>
-  <!--FIN INSTALACIONES-->
-
-  <!--MOVILIDAD ESTUDIANTIL-->
-  <section class="bg-bienvenido">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-6 d-flex justify-content-end mb-3">
-          <img alt="" class="img img-fluid img-bienvenido" src="img/chica-internacional.png" />
-        </div>
-        <div class="col-md-6">
-          <h3>Movilidad Estudiantil</h3>
-          <h2>Experiencia internacional</h2>
-          <p>En un mundo donde la preparación y las experiencias personales han adquirido relevancia para insertarse en
-            un mundo laboral cada vez más global, es importante participar en actividades, programas y vivencias
-            internacionales que ayuden a desarrollar</p>
-          <a href="" class="btn btn-warning btnyellow">ver programa</a>
-          <a href="" class="btn btn-primary btnblue">Conoce Más</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--FIN MOVILIDAD ESTUDIANTIL-->
-
-  <!--FOOTER-->
-  <section>
+</section>
+<!--FIN MOVILIDAD ESTUDIANTIL-->
+<!--FOOTER-->
+<section>
     <footer class="footer-wrapper">
       <div class="container">
-        <hr>
+        <hr class="hr-footer">
         <div class="row justify-content-center">
-          <div class="col-md-4 col-sm-12 mb-4">
-            <h6>Campus de Santiago</h6>
-            <div>
+          <div class="col-md-3 col-sm-12 mb-4">
+            <h6 class="title-footer">Campus de Santiago</h6>
+            <div class="footer-detail">
               <span>Autopista Duarte Km. 1 1/2<br>Santiago, República Dominicana</span>
               <br>
               <span>Tel.: (809) 580-1962</span>
@@ -256,9 +280,9 @@
               <span>Fax: (809) 582-4549</span>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 mb-4">
-            <h6>Campus de Santo Domingo</h6>
-            <div>
+          <div class="col-md-3 col-sm-12 mb-4">
+            <h6 class="title-footer">Campus de Santo Domingo</h6>
+            <div class="footer-detail">
               <span>Abraham Lincoln esq. Simón Bolívar<br>Santo Domingo, República Dominicana</span>
               <br>
               <span>Tel.: (809) 535-0111</span>
@@ -266,12 +290,17 @@
               <span>Fax: (809) 534-7060</span>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 mb-4">
-            <h6>Línea de atención</h6>
-            <div>
+          <div class="col-md-3 col-sm-12 mb-4">
+            <h6 class="title-footer">contactanos</h6>
+            <div class="footer-detail">
               <span>Tel.: 1(809) 200 1962</span>
               <br>
-              <a href="#">info@pucmm.edu.do</a><br>
+              <a href="#">info@pucmm.edu.do</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 mb-4">
+            <h6 class="title-footer">siguenos</h6>
+            <div class="footer-detail">
               <a class="icon-fa" href="http://www.facebook.com/pucmm/" target="_blank">
                 <i class="fab fa-facebook-f"></i></a>
               <a class="icon-fa" href="http://www.instagram.com/pucmm" target="_blank">
@@ -283,29 +312,27 @@
             </div>
           </div>
         </div>
-        <hr>
-        <div class="copyright col-md-12 col-sm-12">
-          <span>© 2020 Escuela de Arquitectura y Diseño de Interiorismo</span>
+        <hr class="hr-footer">
+        <div class="copyright col-md-12 col-sm-12 text-center">
+          <small>© 2020 Escuela de Arquitectura y Diseño de Interiorismo</small>
         </div>
       </div>
     </footer>
   </section>
   <!--FIN FOOTER-->
 
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/a5d8c794e5.js" crossorigin="anonymous"></script>
-  <script src="js/Lightbox.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a5d8c794e5.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

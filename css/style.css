@@ -1,248 +1,291 @@
-@font-face {
-    font-family: 'Muli-ExtraBold';
-    src: url('../fonts/Muli-ExtraBold.ttf') format('truetype'),
-         url('../fonts/Muli-ExtraBoldItalic.ttf') format('truetype');        
-    font-weight: normal;
-    font-style: normal;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #333333;
 }
 
-@font-face {
-    font-family: 'Muli-ExtraLight';
-    src: url('../fonts/Muli-ExtraLight.ttf') format('truetype'),
-         url('../fonts/Muli-ExtraLightItalic.ttf') format('truetype');        
-    font-weight: normal;
-    font-style: normal;
+h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 71px;
 }
 
-@font-face {
-    font-family: 'Muli-Italic';
-    src: url('../fonts/Muli-Italic.ttf') format('truetype');        
-    font-weight: normal;
-    font-style: normal;
+/* h1 .arquitectura {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 71px;
+  color: #f5f5f5;
+} */
+
+h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 40px;
 }
 
-@font-face {
-    font-family: 'Muli-Light';
-    src: url('../fonts/Muli-Light.ttf') format('truetype'),
-         url('../fonts/Muli-LightItalic.ttf') format('truetype');        
-    font-weight: normal;
-    font-style: normal;
+body {
+  /* font-family: Muli; */
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #4f4f4f;
 }
 
-@font-face {
-    font-family: 'Muli-Regular';
-    src: url('fonts/Muli-Regular.ttf') format('truetype');        
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Muli-SemiBold';
-    src: url('../fonts/Muli-SemiBold.ttf') format('truetype'),
-         url('../fonts/Muli-SemiBoldItalic.ttf') format('truetype');        
-    font-weight: normal;
-    font-style: normal;
+hr {
+  background: #30233d;
+  opacity: 0.5;
+  border: 1px solid #666666;
 }
 
 .header {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
   background-image: url(/img/architecture.jpg);
-  min-height: 100vh;
+  background-repeat: no-repeat;
 }
 
-.header .navbar {
-    background-color: transparent !important;
-    color: #ffffff;
-  }
-.supmenu a{
-    color: #ffffff;
-    padding: 10px
-
-}
-.nav-item, .supmenu a{
-    font-family: Muli-SemiBold;
-    font-size: 16px;
-    line-height: 23px;
+.logo-brand {
+  max-width: 450px;
+  max-height: 138px;
 }
 
-.nav-item:hover{
-    border-bottom: solid 2px  #FFE926;
+.menu-superior {
+  text-align: end;
+}
+.menu-superior a {
+  margin-right: 15px;
+  color: #ffffff;
 }
 
-.nav-link{
-    color: #FFFFFF !important;
+.nav-link {
+  color: #ffffff;
 }
 
-.title-page{
-    background-color: #FAFF00;
-    margin: 30px 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding: 30px;
+.nav-link:hover {
+  border-bottom: 2px solid #ffcc3b;
+  width: 90%;
 }
 
-body{
-    font-family: "Muli-Regular";
-    font-size: 18px;
-    color: #4F4F4F;    
+/*Escuela de arquitectura*/
+.title-esc {
+  padding-left: 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: "Muli-Bold " !important;
-    font-weight: 800;
+.title-esc h1 {
+  color: #ffffff !important;
 }
-
-h1{
-    font-style: normal;
-    font-size: 60px;
-    line-height: 71px;  
-    color: #333333;
-    }
-h2{
-    font-size: 45px;
-    line-height: 56px;
+.title-esc h2 {
+  font-size: 20px;
+  color: #ffffff !important;
 }
-
-.bg-bienvenido{
-    background-image: url(/img/figura.png);
-background-repeat: no-repeat;
-    
-}
-
-.carrera{
-    background-color:#FBFF37;
-}
-
-.tcarrera{
-    position: absolute;
-    bottom: 35px;
-    z-index: 9000;
-    width: 60%;
-}
-
-.carousel-control-next, .carousel-control-prev{
-	width: 150px;
-}
-.carousel-control-prev, .carousel-control-next{
-    color: #000000 !important;
-    font-size: 30px;
-}
-
-.btn{
-    text-transform: uppercase;
-    margin-right: 20px;
-}
-
-.btn-warning{
-    background-color:#FBFF37;
-    border-color:#FBFF37;
-
-}
-
-
-.btn-outline-warning {
-    color: #FBFF37;
-    border-color: #FBFF37;
-
-}
-.btn-outline-warning:hover {
-    color: #000000;
-    background-color: #FBFF37;
-    border-color: #FBFF37;
-}
-
-.title-footer {
-    font-family: Muli;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 13px;
-    line-height: 27px;
-    letter-spacing: 2px;
-    color: #4F4F4F;
-}
-
-.footer-wrapper {
-    color: #4F4F4F;
-    padding: 80px 30px !important;
-
-}
-.footer-wrapper h6 {
-    font-size: 18px;
-    padding-bottom: 25px;
-    position: relative;
-    margin: 0 !important;
-}
-
-.footer-wrapper .copyright {
-    min-width: 100%;
-    width: 100%;
-    max-width: 100%;
-    text-align: center !important;
-    padding: 25px 0 0 0 !important;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-    -ms-flex-direction: column !important;
-    flex-direction: column !important;
-    -webkit-box-pack: center !important;
-    -ms-flex-pack: center !important;
-    justify-content: center !important;
-    -ms-flex-line-pack: center !important;
-    align-content: center !important;
-}
-
-.icon-fa{
-    margin-right: 10px;
-}
-
-
-
-
-.install-col{
-    padding: 0px !important;
-}
-.instalaciones-container {
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    display: flex;
-    justify-content:center;
-
-}
-
-.instalaciones-detail {
-    position: absolute;
-    bottom: 35px;
-    z-index: 9000;
-    color: #ffffff;
-    width: 60%;
-}
-
-
-.card{
-    border: none;
+.btn-outline-yellow{
+  color: #faff00;
     background-color: transparent;
-
+    background-image: none;
+    border-color: #faff00;
 }
-p.card-text{
-    border-bottom: solid 2px  #FBFF37 !important;
-    padding: 10px 0;
+.btn-outline-yellow:hover {
+  color: #212529;
+  background-color: #faff00;
+  border-color: #faff00;
+}
+
+/*FIN Escuela de arquitectura*/
+
+/*Bienvenido*/
+.bgcontainer {
+  background-image: url(/img/Vector9.svg);
+  background-repeat: no-repeat;
+  background-size: 509px 655px;
+  min-height: 700px;
+}
+.img-bienvenido {
+  float: right;
+  border-radius: 0.25rem;
+}
+.btnyellow {
+  background: #faff00;
+  border-radius: 36px;
+  border: #faff00;
+  text-transform: uppercase;
+}
+
+/*FIN Bienvenido*/
+
+/*Carreras*/
+.bgcarrera {
+  background: #faff00;
+}
+.col-img-carrera {
+  padding-left: 0;
+  display: flex;
+}
+
+.title-carrera {
+  position: absolute;
+  bottom: 35px;
+  z-index: 9000;
+  width: 60%;
+  margin-left: 20px;
+}
+/*FIN Carreras*/
+
+/*Proyectos*/
+.bgcontainer-proy{
+  background-image: url(/img/Vector11.svg);
+  background-repeat: no-repeat;
+  background-size: 509px 655px;
+  min-height: 700px;
+  background-position: right;
 }
 
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: 150px;
+  color: #000000 !important;
+  font-size: 30px;
+}
+/*FIN Proyectos*/
 
-@media (max-width: 576px) { 
-.carousel-control-prev, .carousel-control-next{
+/*Instalaciones*/
+.portfolio-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.portfolio-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.portfolio-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.portfolio-details h2 {
+  margin-bottom: 0px;
+}
+
+.portfolio-details a h2,
+.portfolio-details a p {
+  color: #ffffff !important;
+}
+/*FIN Instalaciones*/
+
+/*MOVILIDAD*/
+.bgcontainer-mov{
+  background-image: url(/img/Vector12.svg);
+  background-repeat: no-repeat;
+  background-size: 509px 655px;
+  min-height: 700px;
+}
+.btnblue {
+  background: #001970;
+  border-radius: 36px;
+  border: #001970;
+  text-transform: uppercase;
+}
+/*FIN MOVILIDAD*/
+
+/*FOOTER*/
+.title-footer {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+
+.hr-footer {
+  background: #30233d;
+  opacity: 0.5;
+  border: 1px solid #666666;
+}
+
+.footer-detail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #4f4f4f;
+}
+
+.footer-detail a{
+  margin-right: 15px;
+}
+
+/*FIN FOOTER*/
+
+@media (max-width: 576px) {
+  .header {
+    padding: 4rem 2rem;
+  }
+
+  .title-esc {
+    padding-left: initial;
+    padding-right: initial;
+  }
+  .title-esc h1 {
+    font-size: 50px !important;
+  }
+  .bgcontainer, .bgcontainer-mov, .bgcontainer-proy {
+    background-image: none;
+  }
+
+  .img-bienvenido {
+    margin-bottom: 15px;
+  }
+
+  .bgcarrera {
+    margin-bottom: 20px;
+  }
+  .title-carrera {
+    position: initial;
+    bottom: 0;
+    z-index: 9000;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .col-img-carrera {
+    margin-bottom: 25px;
+  }
+  .img-carrera {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
     display: flex;
     align-items: flex-end;
-    color:  #ffffff !important;
-}
-
-p.card-text{
-   width: 49%;
-    padding: 10px 0;
-}
-
+    color: #ffffff !important;
+  }
 }
