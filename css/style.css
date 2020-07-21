@@ -51,6 +51,7 @@ hr {
   background-color: transparent;
   background-image: url(/img/architecture.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo-brand {
@@ -61,6 +62,7 @@ hr {
 .menu-superior {
   text-align: end;
 }
+
 .menu-superior a {
   margin-right: 15px;
   color: #ffffff;
@@ -85,22 +87,24 @@ hr {
 .title-esc h1 {
   color: #ffffff !important;
 }
+
 .title-esc h2 {
   font-size: 20px;
   color: #ffffff !important;
 }
+
 .btn-outline-yellow{
   color: #faff00;
     background-color: transparent;
     background-image: none;
     border-color: #faff00;
 }
+
 .btn-outline-yellow:hover {
   color: #212529;
   background-color: #faff00;
   border-color: #faff00;
 }
-
 /*FIN Escuela de arquitectura*/
 
 /*Bienvenido*/
@@ -110,23 +114,25 @@ hr {
   background-size: 509px 655px;
   min-height: 700px;
 }
+
 .img-bienvenido {
   float: right;
   border-radius: 0.25rem;
 }
+
 .btnyellow {
   background: #faff00;
   border-radius: 36px;
   border: #faff00;
   text-transform: uppercase;
 }
-
 /*FIN Bienvenido*/
 
 /*Carreras*/
 .bgcarrera {
   background: #faff00;
 }
+
 .col-img-carrera {
   padding-left: 0;
   display: flex;
@@ -149,7 +155,6 @@ hr {
   min-height: 700px;
   background-position: right;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -203,6 +208,7 @@ hr {
   background-size: 509px 655px;
   min-height: 700px;
 }
+
 .btnblue {
   background: #001970;
   border-radius: 36px;
@@ -251,9 +257,11 @@ hr {
     padding-left: initial;
     padding-right: initial;
   }
+
   .title-esc h1 {
     font-size: 50px !important;
   }
+
   .bgcontainer, .bgcontainer-mov, .bgcontainer-proy {
     background-image: none;
   }
@@ -265,6 +273,7 @@ hr {
   .bgcarrera {
     margin-bottom: 20px;
   }
+
   .title-carrera {
     position: initial;
     bottom: 0;
@@ -276,6 +285,7 @@ hr {
   .col-img-carrera {
     margin-bottom: 25px;
   }
+  
   .img-carrera {
     display: block;
     margin-left: auto;
