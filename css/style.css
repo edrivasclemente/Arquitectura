@@ -45,8 +45,8 @@ hr {
 }
 
 .logo-brand {
-  max-width: 450px;
-  max-height: 138px;
+  width: 450px;
+  height: 138px;
 }
 
 .menu-superior {
@@ -115,7 +115,6 @@ hr {
   background-color: #faff00;
   border-color: #faff00;
 }
-
 /*FIN Escuela de arquitectura*/
 
 /*Bienvenido*/
@@ -253,7 +252,6 @@ hr {
 .footer-detail a {
   margin-right: 15px;
 }
-
 /*FIN FOOTER*/
 
 /*ESCUELA-INSTALACIONES*/
@@ -296,25 +294,16 @@ hr {
 /*FIN ESCUELA-INSTALACIONES*/
 
 /*EQUIPO*/
-.card{
+.card {
   background-color: transparent;
   border: none;
 }
 
-.title-card{
+.title-card {
   background: #faff00;
   border: 1px solid #faff00;
 }
-
-
-
-
-
 /*FIN EQUIPO*/
-
-
-
-
 
 @media (max-width: 576px) {
   .header {
