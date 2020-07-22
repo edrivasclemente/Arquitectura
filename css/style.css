@@ -108,7 +108,9 @@ hr {
   background-image: url(/img/architecture.jpg);
   background-repeat: no-repeat;
 }
-
+.header-page{
+  padding-top: 2rem;
+}
 .logo-brand {
   max-width: 450px;
   max-height: 138px;
