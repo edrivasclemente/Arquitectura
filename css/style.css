@@ -45,7 +45,8 @@ hr {
 }
 
 .logo-brand {
-  width: 450px;
+  min-width: 340px;
+  max-width: 450px;
   height: 138px;
 }
 
@@ -306,9 +307,6 @@ hr {
 /*FIN EQUIPO*/
 
 @media (max-width: 576px) {
-  .logo-brand {
-    float: left;
-  }
 
   .header {
     padding: 4rem 2rem;
