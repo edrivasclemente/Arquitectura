@@ -45,9 +45,8 @@ hr {
 }
 
 .logo-brand {
-  min-width: 340px;
   max-width: 450px;
-  height: 138px;
+  max-height: 138px;
 }
 
 .menu-superior {
