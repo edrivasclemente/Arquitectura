@@ -380,9 +380,9 @@ a:hover {
 /*FIN EQUIPO*/
 
 @media (max-width: 576px) {
-  .header {
+  /* .header {
     padding: 4rem 2rem;
-  }
+  } */
   .menu-superior {
     text-align: start !important;
   }
