@@ -106,7 +106,22 @@ hr {
   background-image: url(/img/portada.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  position: relative;
 }
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.fa-bars{
+  color: #ffffff;
+}
+
 .header-page {
   padding-top: 2rem;
 }
@@ -121,6 +136,7 @@ hr {
 .menu-superior a {
   margin-right: 15px;
   color: #ffffff;
+  position: relative
 }
 
 .nav-link {
@@ -165,6 +181,7 @@ a:hover {
   padding-left: 50px;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  position: relative
 }
 
 .title-esc h1 {
