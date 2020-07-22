@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Escuela</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Arquitectura</title>
 </head>
 
 <body>
-    <!--HEADER-->
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container supmenu d-flex justify-content-end">
-            <ul class="list-inline">
+    <header>
+        <div class="container">
+            <ul class="list-inline menu-superiora">
                 <li class="list-inline-item"><a
                         href="https://micampus.pucmm.edu.do/psp/cs92pro/?cmd=login&languageCd=ESP&">Mi
                         Campus</a></li>
@@ -27,44 +27,45 @@
                             class="fab fa-instagram"></i></a></li>
                 <li class="list-inline-item"><a href="http://www.youtube.com/pucmmtv/"><i
                             class="fab fa-youtube"></i></a></li>
-
             </ul>
+
+
+            <nav class="navbar navbar-expand-lg">
+                <!-- Image and text -->
+                <nav class="navbar">
+                    <a class="navbar-brand logo-brand" href="index.html">
+                        <img src="/img/Logo-Esc-Arq.png" class="d-inline-block align-top  img-fluid" alt=""></a>
+                </nav>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link nav-link-esc" href="escuela.html">Escuela</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-esc" href="#">Académico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-esc" href="#">Carreras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-esc" href="#">Investigación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-esc" href="#">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light container">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/Logo-Esc-Arq.png" width="450" height="130" class="d-inline-block align-top img-fluid"
-                    alt="" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="escuela.html">Escuela <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="equipo.html">Equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Carreras</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Investigación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contactos</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
     </header>
-    <!--FIN HEADER-->
-
-    <div class="container-fluid text-center title-page ">
+    <!--EQUIPOS-->
+    <div class="container-fluid text-center title-pag ">
         <h1 class="mb-0">Equipo</h1>
     </div>
     <section class="my-5">
@@ -89,51 +90,47 @@
     </section>
 
     <!--EQUIPO-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid text-center">
         <h2 class="text-center">Profesores</h2>
-        <div class="card-deck">
-            <div class="card align-items-center">
-                <img src="img/persona.jpg" class="card-img w-50 rounded-circle img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Virginia Flores</h5>
-                    <a class="card-text" href="virginiaflores@pucmm.edu.do">virginiaflores@pucmm.edu.do</a>
-                    <p class="card-text"><small class="text-muted">Tel.: (809) 580-1962, ext.: 0000 </small></p>
-                    <a class="text-uppercase" href="">Ver perfil <i class="fas fa-angle-double-right"></i></a>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card align-items-center">
+                    <img src="img/persona.jpg" class="card-img w-50 rounded-circle img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Virginia Flores</h5>
+                        <hr class="title-card">
+                        <a class="card-text" href="virginiaflores@pucmm.edu.do">virginiaflores@pucmm.edu.do</a>
+                        <p class="card-text"><small class="text-muted">Tel.: (809) 580-1962, ext.: 0000 </small></p>
+                        <a class="text-uppercase" href="">Ver perfil <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="card align-items-center">
-                <img src="img/persona.jpg" class="card-img w-50 rounded-circle img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Virginia Flores</h5>
-                    <a class="card-text" href="virginiaflores@pucmm.edu.do">virginiaflores@pucmm.edu.do</a>
-                    <p class="card-text"><small class="text-muted">Tel.: (809) 580-1962, ext.: 0000 </small></p>
-                    <a class="text-uppercase" href="">Ver perfil <i class="fas fa-angle-double-right"></i></a>
+                <div class="card align-items-center">
+                    <img src="img/persona.jpg" class="card-img w-50 rounded-circle img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Virginia Flores</h5>
+                        <hr class="title-card">
+                        <a class="card-text" href="virginiaflores@pucmm.edu.do">virginiaflores@pucmm.edu.do</a>
+                        <p class="card-text"><small class="text-muted">Tel.: (809) 580-1962, ext.: 0000 </small></p>
+                        <a class="text-uppercase" href="">Ver perfil <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="card align-items-center">
-                <img src="img/persona.jpg" class="card-img w-50 rounded-circle img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Virginia Flores</h5>
-                    <a class="card-text" href="virginiaflores@pucmm.edu.do">virginiaflores@pucmm.edu.do</a>
-                    <p class="card-text"><small class="text-muted">Tel.: (809) 580-1962, ext.: 0000 </small></p>
-                    <a class="text-uppercase" href="">Ver perfil <i class="fas fa-angle-double-right"></i></a>
+                <div class="card align-items-center">
+                    <img src="img/persona.jpg" class="card-img w-50 rounded-circle img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Virginia Flores</h5>
+                        <hr class="title-card">
+                        <a class="card-text" href="virginiaflores@pucmm.edu.do">virginiaflores@pucmm.edu.do</a>
+                        <p class="card-text"><small class="text-muted">Tel.: (809) 580-1962, ext.: 0000 </small></p>
+                        <a class="text-uppercase" href="">Ver perfil <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-
-    <!--FIN EQUIPO-->
-
     <section>
         <h2 class="text-center">Secretaria</h2>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center container">
             <div class="card mb-3 container" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
@@ -151,16 +148,16 @@
             </div>
         </div>
     </section>
-
+    <!--FIN EQUIPOS-->
     <!--FOOTER-->
     <section>
         <footer class="footer-wrapper">
             <div class="container">
-                <hr>
+                <hr class="hr-footer">
                 <div class="row justify-content-center">
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <h6>Campus de Santiago</h6>
-                        <div>
+                    <div class="col-md-3 col-sm-12 mb-4">
+                        <h6 class="title-footer">Campus de Santiago</h6>
+                        <div class="footer-detail">
                             <span>Autopista Duarte Km. 1 1/2<br>Santiago, República Dominicana</span>
                             <br>
                             <span>Tel.: (809) 580-1962</span>
@@ -168,9 +165,9 @@
                             <span>Fax: (809) 582-4549</span>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <h6>Campus de Santo Domingo</h6>
-                        <div>
+                    <div class="col-md-3 col-sm-12 mb-4">
+                        <h6 class="title-footer">Campus de Santo Domingo</h6>
+                        <div class="footer-detail">
                             <span>Abraham Lincoln esq. Simón Bolívar<br>Santo Domingo, República Dominicana</span>
                             <br>
                             <span>Tel.: (809) 535-0111</span>
@@ -178,12 +175,17 @@
                             <span>Fax: (809) 534-7060</span>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <h6>Línea de atención</h6>
-                        <div>
+                    <div class="col-md-3 col-sm-12 mb-4">
+                        <h6 class="title-footer">contactanos</h6>
+                        <div class="footer-detail">
                             <span>Tel.: 1(809) 200 1962</span>
                             <br>
-                            <a href="#">info@pucmm.edu.do</a><br>
+                            <a href="#">info@pucmm.edu.do</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 mb-4">
+                        <h6 class="title-footer">siguenos</h6>
+                        <div class="footer-detail">
                             <a class="icon-fa" href="http://www.facebook.com/pucmm/" target="_blank">
                                 <i class="fab fa-facebook-f"></i></a>
                             <a class="icon-fa" href="http://www.instagram.com/pucmm" target="_blank">
@@ -195,14 +197,15 @@
                         </div>
                     </div>
                 </div>
-                <hr>
-                <div class="copyright col-md-12 col-sm-12">
-                    <span>© 2020 Escuela de Arquitectura y Diseño de Interiorismo</span>
+                <hr class="hr-footer">
+                <div class="copyright col-md-12 col-sm-12 text-center">
+                    <small>© 2020 Escuela de Arquitectura y Diseño de Interiorismo</small>
                 </div>
             </div>
         </footer>
     </section>
     <!--FIN FOOTER-->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -215,7 +218,6 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a5d8c794e5.js" crossorigin="anonymous"></script>
-    <script src="js/Lightbox.js"></script>
 </body>
 
 </html>

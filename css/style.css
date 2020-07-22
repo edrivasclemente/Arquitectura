@@ -293,8 +293,28 @@ hr {
 .portafolio-details h2 {
   color: #ffffff !important;
 }
-
 /*FIN ESCUELA-INSTALACIONES*/
+
+/*EQUIPO*/
+.card{
+  background-color: transparent;
+  border: none;
+}
+
+.title-card{
+  background: #faff00;
+  border: 1px solid #faff00;
+}
+
+
+
+
+
+/*FIN EQUIPO*/
+
+
+
+
 
 @media (max-width: 576px) {
   .header {
