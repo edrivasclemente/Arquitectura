@@ -86,7 +86,6 @@ h2 {
 
 body {
   font-family: "Muli";
-  /* font-family: "Titillium Web", sans-serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -104,8 +103,9 @@ hr {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: transparent;
-  background-image: url(/img/architecture.jpg);
+  background-image: url(/img/portada.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .header-page {
   padding-top: 2rem;
