@@ -1,62 +1,61 @@
-
 @font-face {
-  font-family: 'Muli-Black';
-  src: url('../fonts/Muli-Black.ttf') format('truetype'),
-       url('../fonts/Muli-BlackItalic.ttf') format('truetype');        
+  font-family: "Muli-Black";
+  src: url("../fonts/Muli-Black.ttf") format("truetype"),
+    url("../fonts/Muli-BlackItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muli-Bold';
-  src: url('../fonts/Muli-Bold.ttf') format('truetype'),
-       url('../fonts/Muli-BoldItalic.ttf') format('truetype');        
+  font-family: "Muli-Bold";
+  src: url("../fonts/Muli-Bold.ttf") format("truetype"),
+    url("../fonts/Muli-BoldItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muli-ExtraBold';
-  src: url('../fonts/Muli-ExtraBold.ttf') format('truetype'),
-       url('../fonts/Muli-ExtraBoldItalic.ttf') format('truetype');        
+  font-family: "Muli-ExtraBold";
+  src: url("../fonts/Muli-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Muli-ExtraBoldItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muli-ExtraLight';
-  src: url('../fonts/Muli-ExtraLight.ttf') format('truetype'),
-       url('../fonts/Muli-ExtraLightItalic.ttf') format('truetype');        
+  font-family: "Muli-ExtraLight";
+  src: url("../fonts/Muli-ExtraLight.ttf") format("truetype"),
+    url("../fonts/Muli-ExtraLightItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muli-Italic';
-  src: url('../fonts/Muli-Italic.ttf') format('truetype');        
+  font-family: "Muli-Italic";
+  src: url("../fonts/Muli-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muli-Light';
-  src: url('../fonts/Muli-Light.ttf') format('truetype'),
-       url('../fonts/Muli-LightItalic.ttf') format('truetype');        
+  font-family: "Muli-Light";
+  src: url("../fonts/Muli-Light.ttf") format("truetype"),
+    url("../fonts/Muli-LightItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muli-Regular';
-  src: url('fonts/Muli-Regular.ttf') format('truetype');        
+  font-family: "Muli-Regular";
+  src: url("fonts/Muli-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muli-SemiBold';
-  src: url('../fonts/Muli-SemiBold.ttf') format('truetype'),
-       url('../fonts/Muli-SemiBoldItalic.ttf') format('truetype');        
+  font-family: "Muli-SemiBold";
+  src: url("../fonts/Muli-SemiBold.ttf") format("truetype"),
+    url("../fonts/Muli-SemiBoldItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -108,7 +107,7 @@ hr {
   background-image: url(/img/architecture.jpg);
   background-repeat: no-repeat;
 }
-.header-page{
+.header-page {
   padding-top: 2rem;
 }
 .logo-brand {
@@ -369,23 +368,24 @@ a:hover {
 /*FIN ESCUELA-INSTALACIONES*/
 
 /*EQUIPO*/
-.card{
+.card {
   background-color: transparent;
   border: none;
 }
 
-.title-card{
+.title-card {
   background: #faff00;
   border: 1px solid #faff00;
 }
 /*FIN EQUIPO*/
 
-
 @media (max-width: 576px) {
   .header {
     padding: 4rem 2rem;
   }
-
+  .menu-superior {
+    text-align: start !important;
+  }
   .title-esc {
     padding-left: initial;
     padding-right: initial;
@@ -399,12 +399,12 @@ a:hover {
     background-image: none;
   }
 
-h1{
-  font-size: 50px !important;
-}
-h3{
-  font-size: 1rem !important;
-}
+  h1 {
+    font-size: 50px !important;
+  }
+  h3 {
+    font-size: 1rem !important;
+  }
 
   .img-bienvenido {
     margin-bottom: 15px;
