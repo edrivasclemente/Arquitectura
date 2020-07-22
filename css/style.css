@@ -279,8 +279,6 @@ a:hover {
 .portfolio-details a p {
   color: #ffffff !important;
 }
-
-
 /*FIN Instalaciones*/
 
 /*MOVILIDAD*/
@@ -380,15 +378,7 @@ a:hover {
   background: #faff00;
   border: 1px solid #faff00;
 }
-
-
-
-
-
 /*FIN EQUIPO*/
-
-
-
 
 
 @media (max-width: 576px) {
@@ -408,6 +398,13 @@ a:hover {
   .bgcontainer-proy {
     background-image: none;
   }
+
+h1{
+  font-size: 50px !important;
+}
+h3{
+  font-size: 1rem !important;
+}
 
   .img-bienvenido {
     margin-bottom: 15px;
