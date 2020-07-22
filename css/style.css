@@ -61,6 +61,11 @@ hr {
   color: #ffffff;
 }
 
+a:hover {
+  color: #faff00;
+  text-decoration: underline;
+}
+
 /*PAGINA DE LA ESCUELA*/
 .menu-superiora {
   text-align: end;
@@ -86,7 +91,7 @@ hr {
 /*FIN PAGINA DE LA ESCUELA*/
 
 .nav-link:hover {
-  border-bottom: 2px solid #ffcc3b;
+  border-bottom: 2px solid #faff00;
   width: 90%;
 }
 
