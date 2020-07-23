@@ -67,7 +67,7 @@ h4,
 h5,
 h6 {
   color: #333333;
-  font-family: 'Muli-ExtraBold', 'sans-serif';
+  font-family: 'Muli-ExtraBold', 'sans-serif' !important;
 }
 
 h1 {
@@ -85,7 +85,7 @@ h2 {
 }
 
 body {
-  font-family: 'Muli-Regular','sans-serif';
+  font-family: 'Muli-Regular','sans-serif' !important;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -136,6 +136,7 @@ hr {
 
 .menu-superior {
   text-align: end;
+  font-size: 14px;
 }
 .menu-superior a {
   margin: 15px;
