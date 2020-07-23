@@ -394,6 +394,8 @@ a:hover {
   background: #faff00;
   border: 1px solid #faff00;
 }
+
+
 /*FIN EQUIPO*/
 
 @media (max-width: 576px) {
@@ -452,5 +454,8 @@ a:hover {
     display: flex;
     align-items: flex-end;
     color: #ffffff !important;
+  }
+  .img-equipo{
+  width: 250px;
   }
 }
