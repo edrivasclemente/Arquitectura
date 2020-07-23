@@ -458,4 +458,7 @@ a:hover {
   .img-equipo{
   width: 250px;
   }
+  .body-card{
+    text-align: center;
+  }
 }
