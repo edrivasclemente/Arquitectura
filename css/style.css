@@ -140,6 +140,7 @@ hr {
 .menu-superior {
   text-align: end;
   font-size: 14px;
+  font-weight: 800;
 }
 .menu-superior a {
   margin: 15px;
@@ -149,6 +150,7 @@ hr {
 
 .nav-link {
   color: #ffffff;
+  font-weight: 800;
 }
 
 a:hover {
@@ -158,6 +160,8 @@ a:hover {
 /*PAGINA DE LA ESCUELA*/
 .menu-superiora {
   text-align: end;
+  font-size: 14px;
+  font-weight: 800;
 }
 .menu-superiora a {
   margin-right: 15px;
@@ -165,6 +169,7 @@ a:hover {
 }
 .nav-link-esc {
   color: #000000;
+  font-weight: 800;
 }
 
 .title-pag {
@@ -407,9 +412,6 @@ a:hover {
 /*FIN EQUIPO*/
 
 @media (max-width: 576px) {
-  /* .header {
-    padding: 4rem 2rem;
-  } */
   .menu-superior {
     text-align: center !important;
   }
@@ -461,7 +463,7 @@ a:hover {
   .carousel-control-next {
     display: flex;
     align-items: flex-end;
-    color: #ffffff !important;
+    color: #000000 !important;
   }
   .img-equipo{
   width: 250px;
@@ -469,4 +471,14 @@ a:hover {
   .body-card{
     text-align: center;
   }
+}
+@media (min-width: 768px) {
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: flex;
+    align-items: flex-end;
+    color: #000000 !important;
+  }
+
 }
