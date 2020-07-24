@@ -90,7 +90,7 @@ h2 {
 body {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 18px;
   line-height: 29px;
   color: #4f4f4f;
@@ -184,10 +184,10 @@ a:hover {
 
 /*FIN PAGINA DE LA ESCUELA*/
 
-/* .nav-link:hover {
+.nav-link:hover {
   border-bottom: 2px solid #faff00;
   width: 90%;
-} */
+}
 
 /*Escuela de arquitectura*/
 .title-esc {
@@ -199,6 +199,7 @@ a:hover {
 
 .title-esc h1 {
   color: #ffffff !important;
+  padding-bottom: 20px;
 }
 .title-esc h2 {
   font-size: 20px;
@@ -206,9 +207,8 @@ a:hover {
 }
 .btn-outline-yellow {
   color: #faff00;
-  background-color: transparent;
-  background-image: none;
   border-color: #faff00;
+  border-radius: 0;
 }
 .btn-outline-yellow:hover {
   color: #212529;
@@ -227,7 +227,7 @@ a:hover {
 }
 .img-bienvenido {
   float: right;
-  border-radius: 0.25rem;
+
 }
 .btnyellow {
   background: #faff00;
