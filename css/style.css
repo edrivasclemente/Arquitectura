@@ -142,15 +142,19 @@ hr {
   font-weight: 600;
 }
 .menu-superior a {
-  margin: 15px;
   color: #ffffff;
   position: relative;
 }
 
-#separador::after {
-  content: "|";
-  padding-left: 15px;
+.menu-superior .fab {
+  margin: 0 8px;
+  font-size: 18px;
 }
+
+.menu-superior li:nth-child(3) {
+  margin: 0 40px 0 0;
+}
+
 
 .nav-link {
   color: #ffffff;
@@ -169,8 +173,15 @@ a:hover {
   font-weight: 600;
 }
 .menu-superiora a {
-  margin-right: 15px;
+  position: relative;
   color: #000000;
+}
+.menu-superiora li:nth-child(3) {
+  margin: 0 40px 0 0;
+}
+.menu-superiora .fab {
+  margin: 0 8px;
+  font-size: 18px;
 }
 .nav-link-esc {
   color: #000000;
@@ -218,7 +229,7 @@ a:hover {
   font-size: 13px;
   padding-bottom: 12px;
   padding-top: 12px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 .btn-outline-yellow:hover {
   color: #212529;
