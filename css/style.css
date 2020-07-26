@@ -465,7 +465,10 @@ a:hover {
   h3 {
     font-size: 1rem !important;
   }
-
+  .bgcontainer h2{
+    font-size: 45px;
+    line-height: 60px;
+  }
   .img-bienvenido {
     margin-bottom: 15px;
   }
