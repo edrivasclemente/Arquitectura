@@ -258,6 +258,12 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.btn-warning:hover {
+  color: #212529;
+  background-color: #fff700;
+  border-color: #fff700;
+}
+
 .bgcontainer h2{
   font-size: 60px;
   line-height: 70px;
@@ -305,6 +311,10 @@ a:hover {
 /*FIN Proyectos*/
 
 /*Instalaciones*/
+.portfolio{
+  margin: 40px auto;
+}
+
 .portfolio-container {
   position: relative;
   overflow: hidden;
@@ -345,9 +355,16 @@ a:hover {
 .bgcontainer-mov {
   background-image: url(/img/Vector12.svg);
   background-repeat: no-repeat;
-  background-size: 509px 655px;
-  min-height: 700px;
+  background-size: 670px 885px;
+  min-height: 745px;
+  background-position-y: -28px;
 }
+
+.container-mov{
+  padding: 10% 0;
+} 
+
+
 .btnblue {
   background: #001970;
   border-radius: 36px;
