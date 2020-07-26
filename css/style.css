@@ -247,7 +247,8 @@ a:hover {
   min-height: 700px;
 }
 .img-bienvenido {
-  float: right;
+  display: block;
+    margin: auto 45px auto auto;
 }
 .btnyellow {
   background: #faff00;
@@ -255,6 +256,15 @@ a:hover {
   border: #faff00;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.bgcontainer h2{
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.bgcontainer .col-md-6 .col-md-5{
+  margin: 0 15px;
 }
 
 /*FIN Bienvenido*/
