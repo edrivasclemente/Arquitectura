@@ -138,7 +138,7 @@ hr {
 
 .menu-superior {
   text-align: end;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
 }
 .menu-superior a {
@@ -149,6 +149,7 @@ hr {
 .menu-superior .fab {
   margin: 0 8px;
   font-size: 18px;
+  opacity: 0.7;
 }
 
 .menu-superior li:nth-child(3) {
@@ -256,10 +257,11 @@ a:hover {
   border: #faff00;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: #212529a6;
 }
 
 .btn-warning:hover {
-  color: #212529;
+  color: #212529a6;
   background-color: #fff700;
   border-color: #fff700;
 }
