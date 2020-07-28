@@ -517,6 +517,10 @@ a:hover {
     font-size: 45px;
     line-height: 60px;
   }
+  .bgcontainer-mov h2 {
+    font-size: 45px;
+    line-height: 60px;
+}
   .img-bienvenido {
     margin-bottom: 15px;
   }
