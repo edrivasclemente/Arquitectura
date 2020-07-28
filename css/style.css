@@ -202,7 +202,6 @@ a:hover {
 }
 .text-body {
   padding: 3rem 1rem;
-  margin-bottom: 2rem;
 }
 .sobre-titulo{
   text-transform: uppercase;
@@ -463,7 +462,7 @@ a:hover {
 .portafolio-details {
   position: absolute;
   bottom: 25px;
-  left: 25px;
+  padding: 0 10px;
   z-index: 9000;
 }
 
@@ -478,6 +477,8 @@ a:hover {
 .container-title-lab{
   padding-bottom: 45px;
 }
+
+
 /*FIN ESCUELA-INSTALACIONES*/
 
 /*EQUIPO*/
@@ -556,6 +557,10 @@ a:hover {
   .body-card {
     text-align: center;
   }
+  .text-body {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
 }
 @media (min-width: 768px) {
   .carousel-control-prev,
