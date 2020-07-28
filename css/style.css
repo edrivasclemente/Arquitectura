@@ -383,7 +383,6 @@ a:hover {
   margin-bottom: 1.5rem!important;
 }
 
-
 .btnblue {
   background: #001970;
   border-radius: 36px;
@@ -490,6 +489,11 @@ a:hover {
 .title-card {
   background: #faff00;
   border: 1px solid #faff00;
+}
+
+.container-prof{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /*FIN EQUIPO*/
