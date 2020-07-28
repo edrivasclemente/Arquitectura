@@ -372,10 +372,17 @@ a:hover {
   min-height: 745px;
   background-position-y: -28px;
 }
-
+.bgcontainer-mov h2{
+  font-size: 60px;
+  line-height: 70px;
+}
 .container-mov{
   padding: 10% 15px;
 } 
+.p-mov{
+  margin-top: 1.5rem!important;
+  margin-bottom: 1.5rem!important;
+}
 
 
 .btnblue {
@@ -388,8 +395,8 @@ a:hover {
 }
 
 .btnblue:hover{
-  background: #001970;
-  border: #001970;
+  background: #001970ad;
+  border: #001970ad;
 }
 /*FIN MOVILIDAD*/
 
