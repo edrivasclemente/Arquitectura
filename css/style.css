@@ -569,4 +569,20 @@ a:hover {
     display: flex;
     align-items: flex-end;
   }
+  .bgcontainer h2{
+    font-size: 55px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 45px !important;
+  }
+  .bgcontainer-proy {
+    background-size: 493px 390px;
+    min-height: 610px;
+}
+.bgcontainer-mov {
+  background-size: 570px 785px;
+}
 }
