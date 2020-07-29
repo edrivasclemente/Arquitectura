@@ -164,6 +164,7 @@ hr {
   color: #ffffff;
   font-weight: 600;
   padding-bottom: 15px;
+  
 }
 
 a:hover {
@@ -561,6 +562,12 @@ a:hover {
   .text-body {
     padding: 1rem;
     margin-bottom: 1.5rem;
+}
+.menu-superior li:nth-child(3) {
+  margin: 0;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
 }
 }
 @media (min-width: 768px) {
