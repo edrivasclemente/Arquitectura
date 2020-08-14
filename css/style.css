@@ -143,6 +143,7 @@ hr {
   text-align: end;
   font-size: 12px;
   font-weight: 600;
+  margin-bottom: 0px !important;
 }
 .menu-superior a {
   color: #ffffff;
@@ -159,6 +160,9 @@ hr {
   margin: 0 40px 0 0;
 }
 
+.navbar{
+  padding: 0px !important;
+}
 
 .nav-link {
   color: #ffffff;
@@ -171,6 +175,19 @@ a:hover {
   color: #faff00;
   text-decoration: underline;
 }
+
+.padding-cajas{
+  padding:5rem 0 !important;
+}
+
+.flecha-carreras{
+  position: absolute;
+    bottom: 90px;
+    z-index: 9000;
+    width: 60%;
+    margin-left: 20px;
+}
+
 /*PAGINA DE LA ESCUELA*/
 .menu-superiora {
   text-align: end;
@@ -255,7 +272,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: 509px 655px;
   min-height: 740px;
-  padding-top: 40px;
 }
 .img-bienvenido {
   display: block;
