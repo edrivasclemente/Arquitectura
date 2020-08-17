@@ -616,7 +616,7 @@ a:hover {
     display: flex;
     align-items: flex-end;
   }
-  .bgcontainer h2, .container-mov h2{
+  .bgcontainer h2{
     font-size: 55px;
   }
   h3{
@@ -632,5 +632,7 @@ a:hover {
 .bgcontainer-mov {
   background-size: 570px 785px;
 }
-
+.container-mov h2{
+  font-size: 55px;
+}
 }
