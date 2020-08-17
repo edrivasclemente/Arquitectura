@@ -416,6 +416,11 @@ a:hover {
 /*FIN MOVILIDAD*/
 
 /*FOOTER*/
+.footer-wrapper{
+  background-color: #e9ecef;
+
+}
+
 .title-footer {
   font-style: normal;
   font-weight: 800;
