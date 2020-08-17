@@ -193,6 +193,7 @@ a:hover {
   text-align: end;
   font-size: 14px;
   font-weight: 600;
+  margin-bottom: 0px !important;
 }
 .menu-superiora a {
   position: relative;
@@ -455,6 +456,11 @@ a:hover {
 .icon-fa, .link-pucmm{
   color: #001970;
 }
+.copyright{
+  background-color: #b7b9b9;
+}
+
+
 /*FIN FOOTER*/
 
 /*ESCUELA-INSTALACIONES*/
