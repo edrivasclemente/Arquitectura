@@ -183,7 +183,7 @@ a:hover {
 }
 
 .padding-cajas{
-  padding:5rem 0 !important;
+  padding:5rem 1rem !important;
 }
 
 .flecha-carreras{
@@ -197,7 +197,7 @@ a:hover {
 /*PAGINA DE LA ESCUELA*/
 .menu-superiora {
   text-align: end;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 0px !important;
 }
@@ -536,7 +536,7 @@ a:hover {
     width: 200px;
   }
 
-  .menu-superior {
+  .menu-superior, .menu-superiora{
     text-align: center !important;
   }
   .title-esc {
@@ -602,7 +602,7 @@ a:hover {
   margin-right: 0;
 }
 .padding-cajas {
-  padding: 2rem 0 !important;
+  padding: 2rem 0.5rem !important;
 }
 .col-footer{
   margin-bottom: 1.5rem;
