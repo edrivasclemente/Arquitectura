@@ -532,6 +532,10 @@ a:hover {
 
 @media (max-width: 576px) {
 
+  .logo-brand{
+    width: 200px;
+  }
+
   .menu-superior {
     text-align: center !important;
   }
