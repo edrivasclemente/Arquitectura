@@ -203,7 +203,7 @@ a:hover {
 }
 .menu-superiora a {
   position: relative;
-  color: #000000;
+  color: #333333;
 }
 .menu-superiora li:nth-child(3) {
   margin: 0 40px 0 0;
@@ -213,12 +213,12 @@ a:hover {
   font-size: 18px;
 }
 .nav-link-esc {
-  color: #000000;
+  color: #333333;
   font-weight: 600;
 }
 
 .nav-link-esc:hover {
-  color: #000000;
+  color: #333333;
 }
 .title-pag {
   background-color: #faff00;
