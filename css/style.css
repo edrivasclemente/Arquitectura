@@ -641,3 +641,17 @@ a:hover {
   font-size: 55px;
 }
 }
+
+
+@media (max-width: 768px) {
+  
+
+.title-carrera,.flecha-carreras {
+    position: initial;
+
+}
+
+
+
+
+}
