@@ -279,8 +279,10 @@ a:hover {
   min-height: 740px;
 }
 .img-bienvenido {
-  display: block;
-    margin: auto 45px auto auto;
+  /* display: block;
+    margin: auto 45px auto auto; */
+    justify-content: end;
+    display: grid;
 }
 .btnyellow {
   background: #faff00;
