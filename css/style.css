@@ -655,6 +655,10 @@ a:hover {
 
 }
 
+.img-bienvenido {
+    justify-content: initial;
+    display: grid;
+}
 
 
 
