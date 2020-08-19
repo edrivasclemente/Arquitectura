@@ -607,6 +607,12 @@ a:hover {
 .col-footer{
   margin-bottom: 1.5rem;
 }
+.flecha-carreras {
+  position: initial;
+
+}
+
+
 }
 
 @media (min-width: 768px) {
