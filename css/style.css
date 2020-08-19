@@ -609,6 +609,8 @@ a:hover {
 }
 .flecha-carreras {
   position: initial;
+  padding-top: 15px;
+  margin-bottom: 0px;
 
 }
 
