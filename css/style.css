@@ -178,10 +178,10 @@ hr {
   
 }
 
-a:hover {
+/* a:hover {
   color: #faff00;
   text-decoration: underline;
-}
+} */
 
 .padding-cajas{
   padding:5rem 1rem !important;
@@ -235,6 +235,11 @@ a:hover {
 .sobre-titulo{
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.flecha-lab{
+  z-index: 9000;
+
 }
 
 /*FIN PAGINA DE LA ESCUELA*/
@@ -508,7 +513,7 @@ a:hover {
 .portafolio-details {
   position: absolute;
   bottom: 25px;
-  padding: 0 10px;
+  padding: 0 20px;
   z-index: 9000;
 }
 
