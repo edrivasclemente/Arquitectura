@@ -187,13 +187,13 @@ hr {
   padding:5rem 1rem !important;
 }
 
-.flecha-carreras{
+/* .flecha-carreras{
   position: absolute;
     bottom: 90px;
     z-index: 9000;
     width: 60%;
     margin-left: 20px;
-}
+} */
 
 .body-carousel{
   margin-top: auto;
@@ -224,7 +224,7 @@ hr {
 }
 
 .nav-link-esc:hover {
-  color: #333333;
+  color: #333333 !important;
 }
 .title-pag {
   background-color: #faff00;
@@ -247,6 +247,7 @@ hr {
 .nav-link:hover {
   border-bottom: 2px solid #faff00;
   width: 90%;
+  color:#ffffff;
 }
 
 /*Escuela de arquitectura*/
@@ -335,13 +336,13 @@ hr {
   display: flex;
 }
 
-.title-carrera {
+/* .title-carrera {
   position: absolute;
   bottom: 35px;
   z-index: 9000;
   width: 60%;
   margin-left: 20px;
-}
+} */
 /*FIN Carreras*/
 
 /*Proyectos*/
@@ -510,7 +511,7 @@ hr {
   transform: scale(1.2);
 }
 
-.portafolio-details {
+.portafolio-details,.carreras-details {
   position: absolute;
   bottom: 25px;
   padding: 0 20px;
@@ -629,7 +630,6 @@ hr {
   position: initial;
   padding-top: 15px;
   margin-bottom: 0px;
-
 }
 
 
