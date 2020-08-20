@@ -139,6 +139,7 @@ hr {
 
 .header-page {
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .logo-brand {
   max-width: 450px;
@@ -194,6 +195,11 @@ a:hover {
     margin-left: 20px;
 }
 
+.body-carousel{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 /*PAGINA DE LA ESCUELA*/
 .menu-superiora {
   text-align: end;
@@ -228,6 +234,7 @@ a:hover {
 
 .sobre-titulo{
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 /*FIN PAGINA DE LA ESCUELA*/
@@ -249,10 +256,12 @@ a:hover {
 .title-esc h1 {
   color: #ffffff !important;
   padding-bottom: 20px;
+  margin-bottom: 0px;
 }
 .title-esc h2 {
   font-size: 20px;
   color: #ffffff !important;
+  margin-bottom: 0px;
 }
 .btn-outline-yellow {
   color: #faff00;
@@ -292,6 +301,7 @@ a:hover {
   margin-bottom: 10px;
   color: #212529a6;
   padding: 10px 20px;
+  font-weight: 600;
 }
 
 .btn-warning:hover {
@@ -414,6 +424,7 @@ a:hover {
   text-transform: uppercase;
   margin-bottom: 10px;
   padding: 10px 20px;
+  font-weight: 600;
 }
 
 .btnblue:hover{
