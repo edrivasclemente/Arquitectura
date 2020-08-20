@@ -550,11 +550,9 @@ hr {
 /*FIN EQUIPO*/
 
 @media (max-width: 576px) {
-
   .logo-brand{
     width: 200px;
   }
-
   .menu-superior, .menu-superiora{
     text-align: center !important;
   }
@@ -632,6 +630,10 @@ hr {
   margin-bottom: 0px;
 }
 
+.portafolio-details, .carreras-details {
+  position: initial;
+}
+
 
 }
 
@@ -675,7 +677,9 @@ hr {
     justify-content: initial;
     display: grid;
 }
-
+.portafolio-details, .carreras-details {
+  position: initial;
+}
 
 
 }
