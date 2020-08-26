@@ -289,7 +289,7 @@ hr {
 
 .bg-gris{
   margin-bottom: 2rem;
-    background-color: #e9ecef;
+  background-color: #e9ecef;
 }
 
 @media (min-width: 576px){
@@ -527,7 +527,7 @@ hr {
 .portafolio-details,.carreras-details {
   position: absolute;
   bottom: 25px;
-  padding: 0 20px;
+  padding: 0 40px;
   z-index: 9000;
 }
 
