@@ -286,6 +286,12 @@ hr {
 
 /*FIN Escuela de arquitectura*/
 
+.bg-gris{
+  margin-bottom: 2rem;
+    background-color: #e9ecef;
+}
+
+
 /*Bienvenido*/
 .bgcontainer {
   background-image: url(/img/Vector9.svg);
@@ -298,6 +304,7 @@ hr {
     margin: auto 45px auto auto; */
     justify-content: end;
     display: grid;
+    padding-right: 45px;
 }
 .btnyellow {
   background: #faff00;
