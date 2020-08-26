@@ -291,6 +291,11 @@ hr {
     background-color: #e9ecef;
 }
 
+@media (min-width: 576px){
+.bg-gris {
+    padding: 4rem 2rem;
+}
+}
 
 /*Bienvenido*/
 .bgcontainer {
@@ -673,8 +678,6 @@ hr {
 
 
 @media (max-width: 768px) {
-  
-
 .title-carrera,.flecha-carreras {
     position: initial;
 
