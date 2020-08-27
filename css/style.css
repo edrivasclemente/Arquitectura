@@ -95,6 +95,10 @@ h3{
   font-weight: 700;
 }
 
+.btn{
+  font-size: 13px;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -112,7 +116,7 @@ hr {
 
 .header {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-color: transparent;
   background-image: url(/img/portada.jpg);
   background-repeat: no-repeat;
@@ -288,19 +292,19 @@ hr {
 /*FIN Escuela de arquitectura*/
 
 .bg-gris{
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-color: #e9ecef;
 }
 
-@media (min-width: 576px){
+/* @media (min-width: 576px){
 .bg-gris {
     padding: 4rem 2rem;
 }
-}
+} */
 
 /*Bienvenido*/
 .bgcontainer {
-  background-image: url(/img/Vector9.svg);
+  background-image: url(/img/Vector91.png);
   background-repeat: no-repeat;
   background-size: 509px 655px;
   min-height: 740px;
@@ -323,7 +327,7 @@ hr {
   font-weight: 600;
 }
 
-.btn-warning:hover {
+.btnyellow:hover {
   color: #212529a6;
   background-color: #fff700;
   border-color: #fff700;
