@@ -114,6 +114,10 @@ hr {
   border: 1px solid #666666;
 }
 
+a{
+  color:#0062cc !important;
+}
+
 .header {
   padding: 2rem 1rem;
   /* margin-bottom: 2rem; */
@@ -245,6 +249,13 @@ hr {
 .flecha-lab{
   z-index: 9000;
 
+}
+
+.card-title{
+  font-weight: 600;
+}
+.card-text{
+  font-size: 14px;
 }
 
 /*FIN PAGINA DE LA ESCUELA*/
