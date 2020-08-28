@@ -253,6 +253,7 @@ a{
 
 .card-title{
   font-weight: 600;
+  margin-bottom: 0px;
 }
 .card-text{
   font-size: 14px;
