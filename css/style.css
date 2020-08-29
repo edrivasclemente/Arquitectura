@@ -155,7 +155,7 @@ a:hover {
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 600;
   padding-bottom: 15px;
 }
@@ -173,7 +173,7 @@ a:hover {
   margin-bottom: 0px !important;
 }
 .menu-superior a {
-  color: #ffffff;
+  color: #ffffff !important;
   position: relative;
 }
 
@@ -215,7 +215,7 @@ hr {
 }
 .menu-superiora a {
   position: relative;
-  color: #333333;
+  color: #333333 !important;
 }
 .menu-superiora li:nth-child(3) {
   margin: 0 40px 0 0;
@@ -225,7 +225,7 @@ hr {
   font-size: 18px;
 }
 .nav-link-esc {
-  color: #333333;
+  color: #333333 !important;
   font-weight: 600;
 }
 
@@ -271,8 +271,8 @@ hr {
 }
 
 .btn-outline-yellow {
-  color: #faff00;
-  border-color: #faff00;
+  color: #faff00 !important;
+  border-color: #faff00 !important;
   border-radius: 0;
   font-size: 13px;
   padding-bottom: 12px;
@@ -281,7 +281,7 @@ hr {
 }
 
 .btn-outline-yellow:hover {
-  color: #212529;
+  color: #212529 !important;
   background-color: #faff00;
   border-color: #faff00;
 }
@@ -300,8 +300,6 @@ hr {
   min-height: 740px;
 }
 .img-bienvenido {
-  /* display: block;
-    margin: auto 45px auto auto; */
   justify-content: end;
   display: grid;
   padding-right: 45px;
@@ -313,7 +311,7 @@ hr {
   border: #faff00;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #212529a6;
+  color: #212529a6 !important;
   padding: 10px 20px;
   font-weight: 600;
 }
@@ -427,9 +425,10 @@ hr {
 }
 
 .btnblue {
-  background: #001970;
+  color: #ffffff !important;
+  background: #001970 !important;
   border-radius: 36px;
-  border: #001970;
+  border: #001970 !important;
   text-transform: uppercase;
   margin-bottom: 10px;
   padding: 10px 20px;
@@ -437,8 +436,8 @@ hr {
 }
 
 .btnblue:hover {
-  background: #001970ad;
-  border: #001970ad;
+  background: #001970ad !important;
+  border: #001970ad !important;
 }
 /*FIN MOVILIDAD*/
 
@@ -649,6 +648,11 @@ hr {
   .portafolio-details,
   .carreras-details {
     position: initial;
+  }
+
+  .director .card-body, .secretaria .card-body{
+    text-align: center;
+    
   }
 }
 
