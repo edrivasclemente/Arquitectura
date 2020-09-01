@@ -157,7 +157,7 @@ a:hover {
 .nav-link {
   color: #ffffff !important;
   font-weight: 600;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .nav-link:hover {
@@ -177,15 +177,15 @@ a:hover {
   position: relative;
 }
 
-.menu-superior .fab {
+.menu-superior .fab, .menu-superior .far {
   margin: 0 8px;
   font-size: 18px;
   opacity: 0.7;
 }
 
-.menu-superior li:nth-child(3) {
+/* .menu-superior li:nth-child(3) {
   margin: 0 40px 0 0;
-}
+} */
 
 .btn {
   font-size: 13px;
@@ -198,7 +198,7 @@ hr {
 }
 
 .padding-cajas {
-  padding: 5rem 1rem !important;
+  padding: 80px 16px !important;
 }
 
 .body-carousel {
@@ -217,10 +217,10 @@ hr {
   position: relative;
   color: #333333 !important;
 }
-.menu-superiora li:nth-child(3) {
+/* .menu-superiora li:nth-child(3) {
   margin: 0 40px 0 0;
-}
-.menu-superiora .fab {
+} */
+.menu-superiora .fab, .menu-superiora .far {
   margin: 0 8px;
   font-size: 18px;
 }
@@ -263,11 +263,13 @@ hr {
   color: #ffffff !important;
   padding-bottom: 20px;
   margin-bottom: 0px;
+  line-height: 86px;
 }
 .title-esc h2 {
   font-size: 20px;
   color: #ffffff !important;
   margin-bottom: 0px;
+  line-height: 15px;
 }
 
 .btn-outline-yellow {
@@ -566,10 +568,10 @@ hr {
   .logo-brand {
     width: 200px;
   }
-  .menu-superior,
+  /* .menu-superior,
   .menu-superiora {
     text-align: center !important;
-  }
+  } */
   .title-esc {
     padding-left: initial;
     padding-right: initial;
@@ -627,9 +629,9 @@ hr {
     text-align: center;
   }
 
-  .menu-superior li:nth-child(3) {
+  /* .menu-superior li:nth-child(3) {
     margin: 0;
-  }
+  } */
   .list-inline-item:not(:last-child) {
     margin-right: 0;
   }
