@@ -299,7 +299,6 @@ hr {
   background-image: url(/img/Vector9.svg);
   background-repeat: no-repeat;
   background-size: 509px 655px;
-  min-height: 740px;
 }
 .img-bienvenido {
   justify-content: end;
@@ -350,7 +349,6 @@ hr {
   background-image: url(/img/Vector11.svg);
   background-repeat: no-repeat;
   background-size: 509px 655px;
-  min-height: 700px;
   background-position: right;
 }
 
@@ -363,9 +361,9 @@ hr {
 /*FIN Proyectos*/
 
 /*Instalaciones*/
-.portfolio {
+/* .portfolio {
   margin: 40px auto;
-}
+} */
 
 .portfolio-container {
   position: relative;
@@ -408,7 +406,6 @@ hr {
   background-image: url(/img/Vector12.svg);
   background-repeat: no-repeat;
   background-size: 670px 885px;
-  min-height: 745px;
   background-position-y: -28px;
 }
 
@@ -647,7 +644,7 @@ hr {
     margin-bottom: 0px;
   }
 
-  .portafolio-details,
+  /* .portafolio-details, */
   .carreras-details {
     position: initial;
   }
@@ -675,7 +672,6 @@ hr {
   }
   .bgcontainer-proy {
     background-size: 493px 390px;
-    min-height: 610px;
   }
   .bgcontainer-mov {
     background-size: 570px 785px;
