@@ -549,7 +549,7 @@ hr {
   margin-bottom: 0px;
 }
 
-.card-text {
+.card-text ,.ver-perfil{
   font-size: 14px;
 }
 
