@@ -614,11 +614,11 @@ hr {
   .col-img-carrera {
     margin-bottom: 25px;
   }
-  .img-carrera {
+  /* .img-carrera {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
   .carousel-control-prev,
   .carousel-control-next {
