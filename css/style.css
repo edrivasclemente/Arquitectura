@@ -167,9 +167,9 @@ a:hover {
 
 .menu-superior {
   text-align: end;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
-  margin-bottom: 0px !important;
+
 }
 .menu-superior a {
   color: #ffffff !important;
@@ -208,9 +208,9 @@ hr {
 /*PAGINA DE LA ESCUELA*/
 .menu-superiora {
   text-align: end;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
-  margin-bottom: 0px !important;
+
 }
 .menu-superiora a {
   position: relative;
@@ -679,6 +679,9 @@ hr {
   .container-mov h2 {
     font-size: 55px;
   }
+  .menu-superior{
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -696,4 +699,5 @@ hr {
   .col-img-carrera {
     margin-bottom: 1rem;
   }
+ 
 }
