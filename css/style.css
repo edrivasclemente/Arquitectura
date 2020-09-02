@@ -339,7 +339,6 @@ hr {
 }
 .col-img-carrera {
   padding-left: 0;
-  display: flex;
 }
 /*FIN Carreras*/
 
@@ -649,8 +648,10 @@ hr {
   }
 
   .director .card-body, .secretaria .card-body{
-    text-align: center;
-    
+    text-align: center;    
+  }
+  .carousel-item img, .img-bienvenido{
+    display: none !important;
   }
 }
 
