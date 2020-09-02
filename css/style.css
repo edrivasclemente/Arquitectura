@@ -336,9 +336,7 @@ hr {
 .bgcarrera {
   background: #faff00;
 }
-.col-img-carrera {
-  padding-left: 0;
-}
+
 /*FIN Carreras*/
 
 /*Proyectos*/
@@ -684,6 +682,9 @@ hr {
   .title-esc{
     margin-bottom: 5rem;
   }
+  .col-img-carrera {
+    padding-left: 0;
+}
 }
 
 @media (max-width: 768px) {
