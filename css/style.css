@@ -163,7 +163,6 @@ a:hover {
 .nav-link:hover {
   border-bottom: 2px solid #faff00;
   width: 90%;
-  color: #ffffff;
 }
 
 .menu-superior {
@@ -263,7 +262,7 @@ hr {
   color: #ffffff !important;
   padding-bottom: 20px;
   margin-bottom: 0px;
-  line-height: 86px;
+  line-height: 80px;
 }
 .title-esc h2 {
   font-size: 20px;
