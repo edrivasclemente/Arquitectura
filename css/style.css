@@ -253,7 +253,6 @@ hr {
 .title-esc {
   padding-left: 50px;
   margin-top: 5rem;
-  margin-bottom: 5rem;
   position: relative;
   letter-spacing: 3px;
 }
@@ -679,8 +678,11 @@ hr {
   .container-mov h2 {
     font-size: 55px;
   }
-  .menu-superior{
+  .menu-superior, .menu-superiora{
     margin-bottom: 0px;
+  }
+  .title-esc{
+    margin-bottom: 5rem;
   }
 }
 
