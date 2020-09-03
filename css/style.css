@@ -333,9 +333,9 @@ hr {
 /*FIN Bienvenido*/
 
 /*Carreras*/
-.bgcarrera {
+/* .bgcarrera {
   background: #faff00;
-}
+} */
 
 /*FIN Carreras*/
 
@@ -659,6 +659,7 @@ hr {
     width: auto;
     height: 250px;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -698,6 +699,9 @@ hr {
   .img-guia {
     width: 255px;
   }
+  .bgcarrera {
+    background-color: #faff00;
+}
 }
 
 @media (max-width: 768px) {
@@ -715,4 +719,8 @@ hr {
   .col-img-carrera {
     margin-bottom: 1rem;
   }
+  .bgcarrera .carreras-details{
+    background-color: #faff00;
+  }
+
 }
