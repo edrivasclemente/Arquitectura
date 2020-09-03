@@ -653,6 +653,7 @@ hr {
 
   .director img, .secretaria img{
     width: 60%;
+    height: auto;
   }
 
 
