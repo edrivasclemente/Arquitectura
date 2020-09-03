@@ -651,6 +651,11 @@ hr {
     display: none !important;
   }
 
+  .director img, .secretaria img{
+    width: 60%;
+  }
+
+
 }
 
 @media (min-width: 768px) {
