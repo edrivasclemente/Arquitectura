@@ -650,6 +650,7 @@ hr {
   .carousel-item img, .img-bienvenido{
     display: none !important;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -685,6 +686,9 @@ hr {
   .col-img-carrera {
     padding-left: 0;
 }
+.img-guia{
+  width: 255px;
+}
 }
 
 @media (max-width: 768px) {
@@ -702,5 +706,6 @@ hr {
   .col-img-carrera {
     margin-bottom: 1rem;
   }
+
  
 }
