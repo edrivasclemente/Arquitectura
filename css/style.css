@@ -66,7 +66,6 @@
   padding: 0px;
   margin: 0px;
 }
-
 body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -75,7 +74,6 @@ body {
   line-height: 29px;
   color: #4f4f4f;
 }
-
 h1,
 h2,
 h3,
@@ -85,33 +83,27 @@ h6 {
   color: #333333;
   font-family: "Raleway", sans-serif;
 }
-
 h1 {
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
   line-height: 71px;
 }
-
 h2 {
   font-style: normal;
   font-weight: 800;
   font-size: 45px;
   line-height: 40px;
 }
-
 h3 {
   font-weight: 700;
 }
-
 a {
   color: #0062cc !important;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 .header {
   padding: 2rem 1rem;
   background-color: transparent;
@@ -121,7 +113,6 @@ a:hover {
   background-position: center center;
   position: relative;
 }
-
 .header:before {
   content: "";
   position: absolute;
@@ -131,40 +122,32 @@ a:hover {
   right: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
-
 .fa-bars {
   color: #ffffff;
 }
-
 .icono-menu {
   color: #000000;
 }
-
 .header-page {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-
 .logo-brand {
   max-width: 450px;
   max-height: 138px;
 }
-
 .navbar {
   padding: 0px !important;
 }
-
 .nav-link {
   color: #ffffff !important;
   font-weight: 600;
   padding-bottom: 5px;
 }
-
 .nav-link:hover {
   border-bottom: 2px solid #faff00;
   width: 90%;
 }
-
 .menu-superior {
   text-align: end;
   font-size: 14px;
@@ -174,18 +157,12 @@ a:hover {
   color: #ffffff !important;
   position: relative;
 }
-
 .menu-superior .fab,
 .menu-superior .far {
   margin: 0 8px;
   font-size: 18px;
   opacity: 0.7;
 }
-
-/* .menu-superior li:nth-child(3) {
-  margin: 0 40px 0 0;
-} */
-
 .btn {
   font-size: 13px;
 }
@@ -195,17 +172,13 @@ hr {
   opacity: 0.5;
   border: 1px solid #666666;
 }
-
 .padding-cajas {
   padding: 80px 16px !important;
 }
-
 .body-carousel {
   margin-top: auto;
   margin-bottom: auto;
 }
-
-/*PAGINA DE LA ESCUELA*/
 .menu-superiora {
   text-align: end;
   font-size: 14px;
@@ -215,9 +188,6 @@ hr {
   position: relative;
   color: #333333 !important;
 }
-/* .menu-superiora li:nth-child(3) {
-  margin: 0 40px 0 0;
-} */
 .menu-superiora .fab,
 .menu-superiora .far {
   margin: 0 8px;
@@ -227,36 +197,28 @@ hr {
   color: #333333 !important;
   font-weight: 600;
 }
-
 .nav-link-esc:hover {
   color: #333333 !important;
   border-bottom: 2px solid #e9ecef !important;
 }
-
 .title-pag {
   background-color: #faff00;
   padding-bottom: 20px;
   padding-top: 20px;
 }
-
 .sobre-titulo {
   text-transform: uppercase;
   font-weight: 600;
 }
-
 .flecha-lab {
   z-index: 9000;
 }
-/*FIN PAGINA DE LA ESCUELA*/
-
-/*Escuela de arquitectura*/
 .title-esc {
   padding-left: 50px;
-  margin-top: 5rem;
+  margin-top: 80px;
   position: relative;
   letter-spacing: 3px;
 }
-
 .title-esc h1 {
   color: #ffffff !important;
   padding-bottom: 20px;
@@ -269,7 +231,6 @@ hr {
   margin-bottom: 0px;
   line-height: 15px;
 }
-
 .btn-outline-yellow {
   color: #faff00 !important;
   border-color: #faff00 !important;
@@ -279,20 +240,14 @@ hr {
   padding-top: 12px;
   font-weight: 600;
 }
-
 .btn-outline-yellow:hover {
   color: #212529 !important;
   background-color: #faff00;
   border-color: #faff00;
 }
-
-/*FIN Escuela de arquitectura*/
-
 .bg-gris {
   background-color: #e9ecef;
 }
-
-/*Bienvenido*/
 .bgcontainer {
   background-image: url(/img/Vector9.svg);
   background-repeat: no-repeat;
@@ -303,7 +258,6 @@ hr {
   display: grid;
   padding-right: 45px;
 }
-
 .btnyellow {
   background: #faff00;
   border-radius: 36px;
@@ -314,110 +268,76 @@ hr {
   padding: 10px 20px;
   font-weight: 600;
 }
-
 .btnyellow:hover {
   color: #212529a6;
   background-color: #fff700;
   border-color: #fff700;
 }
-
 .bgcontainer h2 {
   font-size: 60px;
   line-height: 70px;
 }
-
 .bgcontainer .col-md-6 .col-md-5 {
   margin: 0 15px;
 }
-
-/*FIN Bienvenido*/
-
-/*Carreras*/
-/* .bgcarrera {
-  background: #faff00;
-} */
-
-/*FIN Carreras*/
-
-/*Proyectos*/
 .bgcontainer-proy {
   background-image: url(/img/Vector11.svg);
   background-repeat: no-repeat;
   background-size: 509px 655px;
   background-position: right;
 }
-
 .carousel-control-prev,
 .carousel-control-next {
   width: 150px;
   color: #000000 !important;
   font-size: 30px;
 }
-/*FIN Proyectos*/
-
-/*Instalaciones*/
-/* .portfolio {
-  margin: 40px auto;
-} */
-
 .portfolio-container {
   position: relative;
   overflow: hidden;
   margin: 10px 0;
   border-radius: 2px;
 }
-
 .portfolio-container img {
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
-
 .portfolio-container:hover img {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
-
 .portfolio-details {
   position: absolute;
   bottom: 25px;
   left: 25px;
   z-index: 9000;
 }
-
 .portfolio-details h2 {
   margin-bottom: 0px;
 }
-
 .portfolio-details a h2,
 .portfolio-details a p {
   color: #ffffff !important;
 }
-/*FIN Instalaciones*/
-
-/*MOVILIDAD*/
 .bgcontainer-mov {
   background-image: url(/img/Vector12.svg);
   background-repeat: no-repeat;
   background-size: 670px 885px;
   background-position-y: -28px;
 }
-
 .bgcontainer-mov h2 {
   font-size: 60px;
   line-height: 70px;
 }
-
 .container-mov {
   padding: 10% 15px;
 }
-
 .p-mov {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
 }
-
 .btnblue {
   color: #ffffff !important;
   background: #001970 !important;
@@ -428,18 +348,13 @@ hr {
   padding: 10px 20px;
   font-weight: 600;
 }
-
 .btnblue:hover {
   background: #001970ad !important;
   border: #001970ad !important;
 }
-/*FIN MOVILIDAD*/
-
-/*FOOTER*/
 .footer-wrapper {
   background-color: #e9ecef;
 }
-
 .title-footer {
   font-style: normal;
   font-weight: 800;
@@ -449,13 +364,11 @@ hr {
   color: #4f4f4f;
   text-transform: uppercase;
 }
-
 .hr-footer {
   background: #30233d;
   opacity: 0.5;
   border: 1px solid #666666;
 }
-
 .footer-detail {
   font-style: normal;
   font-weight: normal;
@@ -463,52 +376,40 @@ hr {
   line-height: 28px;
   color: #4f4f4f;
 }
-
 .footer-detail a {
   margin-right: 15px;
 }
-
 .footer-detail i {
   font-size: 20px;
 }
-
 .icon-fa,
 .link-pucmm {
   color: #001970;
 }
-
 .copyright {
   background-color: #001970;
 }
-
 .col-footer {
   margin-bottom: 0px;
 }
-/*FIN FOOTER*/
-
-/*ESCUELA-INSTALACIONES*/
 .portafolio-container {
   position: relative;
   overflow: hidden;
   margin: 10px 0;
   border-radius: 2px;
 }
-
 .portafolio-container img {
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
-
   mix-blend-mode: darken;
   opacity: 1.9;
 }
-
 .portafolio-container:hover img {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
-
 .portafolio-details,
 .carreras-details {
   position: absolute;
@@ -516,75 +417,56 @@ hr {
   padding: 0 40px;
   z-index: 9000;
 }
-
 .portafolio-details h2 {
   margin-bottom: 0px;
 }
-
 .portafolio-details h3 {
   color: #ffffff !important;
 }
-
 .container-title-lab {
   padding-bottom: 45px;
 }
-/*FIN ESCUELA-INSTALACIONES*/
-
-/*EQUIPO*/
 .card {
   background-color: transparent;
   border: none;
 }
-
 .card-title {
   font-weight: 600;
   margin-bottom: 0px;
 }
-
 .card-text,
 .ver-perfil {
   font-size: 14px;
 }
-
 .title-card {
   background: #faff00;
   border: 1px solid #faff00;
 }
-
 .container-prof {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-/*FIN EQUIPO*/
 
 @media (max-width: 576px) {
   .logo-brand {
     width: 200px;
   }
-  /* .menu-superior,
-  .menu-superiora {
-    text-align: center !important;
-  } */
   .title-esc {
     padding-left: initial;
     padding-right: initial;
   }
-
   .bgcontainer,
   .bgcontainer-mov,
   .bgcontainer-proy {
     background-image: none;
   }
-
   h1 {
     font-size: 40px !important;
   }
-
   .bgcontainer h2 {
     font-size: 45px;
     line-height: 60px;
   }
-
   .bgcontainer-mov h2 {
     font-size: 45px;
     line-height: 60px;
@@ -592,7 +474,6 @@ hr {
   .img-bienvenido {
     margin-bottom: 15px;
   }
-
   .bgcarrera {
     margin-bottom: 20px;
   }
@@ -607,12 +488,6 @@ hr {
   .col-img-carrera {
     margin-bottom: 25px;
   }
-  /* .img-carrera {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
   .carousel-control-prev,
   .carousel-control-next {
     display: flex;
@@ -621,10 +496,6 @@ hr {
   .body-card {
     text-align: center;
   }
-
-  /* .menu-superior li:nth-child(3) {
-    margin: 0;
-  } */
   .list-inline-item:not(:last-child) {
     margin-right: 0;
   }
@@ -639,12 +510,9 @@ hr {
     padding-top: 15px;
     margin-bottom: 0px;
   }
-
-  /* .portafolio-details, */
   .carreras-details {
     position: initial;
   }
-
   .director .card-body,
   .secretaria .card-body {
     text-align: center;
@@ -653,13 +521,11 @@ hr {
   .img-bienvenido {
     display: none !important;
   }
-
   .director img,
   .secretaria img {
     width: auto;
     height: 250px;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -709,12 +575,10 @@ hr {
   .flecha-carreras {
     position: initial;
   }
-
   .img-bienvenido {
     justify-content: initial;
     display: grid;
   }
-
   .bgcarrera,
   .col-img-carrera {
     margin-bottom: 1rem;
@@ -722,5 +586,4 @@ hr {
   .bgcarrera .carreras-details{
     background-color: #faff00;
   }
-
 }
