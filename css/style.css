@@ -170,6 +170,7 @@ a:hover {
 
 .historia{
   column-count: 2;
+  margin-bottom: 45px;
 }
 
 
@@ -594,5 +595,6 @@ hr {
   }
   .historia {
     column-count: 1;
+    margin-bottom: 25px;
 }
 }
