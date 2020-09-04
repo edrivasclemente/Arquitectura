@@ -569,11 +569,11 @@ hr {
   .col-img-carrera {
     padding-left: 0;
   }
-  .img-guia {
-    width: 255px;
-  }
   .bgcarrera {
     background-color: #faff00;
+}
+.img-recursos{
+  width: 160px;
 }
 }
 
