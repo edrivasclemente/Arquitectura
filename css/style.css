@@ -453,6 +453,9 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+.title-recursos{
+  font-size: 14px;
+}
 
 @media (max-width: 576px) {
   .logo-brand {
