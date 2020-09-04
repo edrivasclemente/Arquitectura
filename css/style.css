@@ -167,6 +167,12 @@ a:hover {
   font-size: 13px;
 }
 
+
+.historia{
+  column-count: 2;
+}
+
+
 hr {
   background: #30233d;
   opacity: 0.5;
@@ -500,7 +506,7 @@ hr {
     margin-right: 0;
   }
   .padding-cajas {
-    padding: 2rem 0.5rem !important;
+    padding: 35px 10px !important;
   }
   .col-footer {
     margin-bottom: 1.5rem;
@@ -586,4 +592,7 @@ hr {
   .bgcarrera .carreras-details{
     background-color: #faff00;
   }
+  .historia {
+    column-count: 1;
+}
 }
