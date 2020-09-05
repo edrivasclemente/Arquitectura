@@ -182,6 +182,10 @@ hr {
 .padding-cajas {
   padding: 80px 16px !important;
 }
+.padding-recursos{
+  padding: 35px 16px !important;
+}
+
 .body-carousel {
   margin-top: auto;
   margin-bottom: auto;
@@ -512,6 +516,9 @@ hr {
   .padding-cajas {
     padding: 35px 10px !important;
   }
+  /* .padding-recursos {
+    padding: 35px 10px !important;
+  } */
   .col-footer {
     margin-bottom: 1.5rem;
   }
@@ -578,6 +585,7 @@ hr {
 .img-recursos{
   width: 160px;
 }
+
 }
 
 @media (max-width: 768px) {
@@ -600,4 +608,6 @@ hr {
     column-count: 1;
     margin-bottom: 25px;
 }
+
+
 }
