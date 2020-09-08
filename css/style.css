@@ -163,9 +163,9 @@ a:hover {
   font-size: 18px;
   opacity: 0.7;
 }
-/* .btn {
+.btn {
   font-size: 13px;
-} */
+}
 
 
 .historia{
@@ -617,7 +617,9 @@ hr {
   background-color:transparent;
 
 }
-
+.card-header-t .btn{
+  font-size: 16px;
+}
 .icon{
   position: absolute;
     right: 20px;
