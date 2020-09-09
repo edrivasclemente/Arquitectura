@@ -128,29 +128,30 @@ $(document).ready(function(){
 //filtrar html
 
 $(document).ready(function(){
+
 	// AGREGANDO CLASE ACTIVE AL PRIMER ENLACE ====================
 	$('.category_list .category_item[category="all"]').addClass('ct_item-active');
 
 	// FILTRANDO PRODUCTOS  ============================================
 
 	$('.category_item').click(function(){
-		var catprofesor = $(this).attr('category');
-		console.log(catprofesor);
+		var catProduct = $(this).attr('category');
+		console.log(catProduct);
 
 		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
 		$('.category_item').removeClass('ct_item-active');
 		$(this).addClass('ct_item-active');
 
 		// OCULTANDO PRODUCTOS =========================
-		$('.profesor-item').css('transform', 'scale(0)');
+		$('.product-item').css('transform', 'scale(0)');
 		function hideProduct(){
-			$('.profesor-item').hide();
+			$('.product-item').hide();
 		} setTimeout(hideProduct,400);
 
 		// MOSTRANDO PRODUCTOS =========================
 		function showProduct(){
-			$('.profesor-item[category="'+catprofesor+'"]').show();
-			$('.profesor-item[category="'+catprofesor+'"]').css('transform', 'scale(1)');
+			$('.product-item[category="'+catProduct+'"]').show();
+			$('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
 		} setTimeout(showProduct,400);
 	});
 
@@ -158,8 +159,8 @@ $(document).ready(function(){
 
 	$('.category_item[category="all"]').click(function(){
 		function showAll(){
-			$('.profesor-item').show();
-			$('.profesor-item').css('transform', 'scale(1)');
+			$('.product-item').show();
+			$('.product-item').css('transform', 'scale(1)');
 		} setTimeout(showAll,400);
 	});
 });
