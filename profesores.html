@@ -19,12 +19,17 @@
     <header class="header-page">
         <div class="container">
             <ul class="list-inline menu-superiora">
-                <li class="list-inline-item"><a href="https://micampus.pucmm.edu.do/psp/cs92pro/?cmd=login&languageCd=ESP&">Mi Campus</a></li>
+                <li class="list-inline-item"><a
+                        href="https://micampus.pucmm.edu.do/psp/cs92pro/?cmd=login&languageCd=ESP&">Mi Campus</a></li>
                 <li class="list-inline-item"><a id="separador" href="">|</a></li>
-                <li class="list-inline-item"><a href="https://outlook.com/ce.pucmm.edu.do"><i class="far fa-envelope"></i></a></li>
-                <li class="list-inline-item"><a href="http://www.facebook.com/pucmm/"><i class="fab fa-facebook-square"></i></a></li>
-                <li class="list-inline-item"><a href="http://www.instagram.com/pucmm"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="http://www.youtube.com/pucmmtv/"><i class="fab fa-youtube"></i></a></li>
+                <li class="list-inline-item"><a href="https://outlook.com/ce.pucmm.edu.do"><i
+                            class="far fa-envelope"></i></a></li>
+                <li class="list-inline-item"><a href="http://www.facebook.com/pucmm/"><i
+                            class="fab fa-facebook-square"></i></a></li>
+                <li class="list-inline-item"><a href="http://www.instagram.com/pucmm"><i
+                            class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="http://www.youtube.com/pucmmtv/"><i
+                            class="fab fa-youtube"></i></a></li>
             </ul>
 
 
@@ -68,48 +73,184 @@
     </div>
 
     <!--EQUIPO-->
-    <section>
+    <section class="mb-5">
         <div class="bg-gris text-center padding-cajas">
             <div class="container">
                 <h2 class="text-center mb-5">Profesores</h2>
-                <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col col-md-4 mb-4">
-                        <div class="card h-100 align-items-center">
-                            <img src="img/persona.jpg" class="card-img-top rounded-circle w-50 img-fluid img-equipo"
-                                alt="...">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="category_item" category="all">Todo</a></li>
+                    <li class="list-inline-item"><a href="#" class="category_item" category="tcompleto">Tiempo Completo</a></li>
+                    <li class="list-inline-item"><a href="#" class="category_item" category="mtiempo">Medio Tiempo</a></li>
+                    <li class="list-inline-item"><a href="#" class="category_item" category="pasignatura">Por Asignatura</a></li>
+                    <!-- <li class="list-inline-item"><input class="form-control" id="myInput" type="text" placeholder="Search.."></li>-->
+                </ul> 
+
+
+                <div class="row row-cols-1 row-cols-md-3" id="profe">
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="tcompleto">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
                             <div class="card-body">
-                                <a class="btn btnyellow" href="profesores-tiempo-completo.html">De tiempo completo <i class="fas fa-arrow-right"></i></a>
+                                <a class="btn btnyellow" href="profesores-tiempo-completo.html">De tiempo completo <i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-md-4 mb-4">
-                        <div class="card h-100 align-items-center">
-                            <img src="img/persona.jpg" class="card-img-top rounded-circle w-50 img-fluid img-equipo"
-                                alt="...">
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="tcompleto">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
                             <div class="card-body">
-                                <a class="btn btnyellow" href="profesores-medio-tiempo.html">De medio tiempo <i class="fas fa-arrow-right"></i></a>
+                                <a class="btn btnyellow" href="profesores-medio-tiempo.html">De medio tiempo <i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-md-4 mb-4">
-                        <div class="card h-100 align-items-center">
-                            <img src="img/persona.jpg" class="card-img-top rounded-circle w-50 img-fluid img-equipo"
-                                alt="...">
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="tcompleto">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
                             <div class="card-body">
-                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i class="fas fa-arrow-right"></i></a>
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="tcompleto">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="tcompleto">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin tiempo completo-->
+                    <!--medio tiempo-->
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="mtiempo">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-tiempo-completo.html">De tiempo completo <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="mtiempo">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-medio-tiempo.html">De medio tiempo <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="mtiempo">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="mtiempo">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="mtiempo">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="mtiempo">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin medio tiempo-->
+                    <!--por asignatura-->
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="pasignatura">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-tiempo-completo.html">De tiempo completo <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="pasignatura">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-medio-tiempo.html">De medio tiempo <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="pasignatura">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="pasignatura">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="pasignatura">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card h-100 align-items-center profesor-item" category="pasignatura">
+                            <img src="img/persona.jpg" class="card-img-top img-fluid img-equipo" alt="...">
+                            <div class="card-body">
+                                <a class="btn btnyellow" href="profesores-asignatura.html">Por asignatura <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin por asignatura-->
                 </div>
             </div>
         </div>
     </section>
     <!--FIN EQUIPOS-->
 
-<!--equipos-->
-
-
-<!--equipos fin-->
 
     <!--FOOTER-->
     <section>
