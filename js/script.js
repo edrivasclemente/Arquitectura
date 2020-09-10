@@ -132,7 +132,7 @@ $(document).ready(function(){
 	// AGREGANDO CLASE ACTIVE AL PRIMER ENLACE ====================
 	$('.category_list .category_item[category="all"]').addClass('ct_item-active');
 
-	// FILTRANDO PRODUCTOS  ============================================
+	// FILTRANDO PROFESORES  ============================================
 
 	$('.category_item').click(function(){
 		var catProduct = $(this).attr('category');
@@ -142,20 +142,20 @@ $(document).ready(function(){
 		$('.category_item').removeClass('ct_item-active');
 		$(this).addClass('ct_item-active');
 
-		// OCULTANDO PRODUCTOS =========================
+		// OCULTANDO PROFESORES =========================
 		$('.prof-item').css('transform', 'scale(0)');
 		function hideProduct(){
 			$('.prof-item').hide();
 		} setTimeout(hideProduct,400);
 
-		// MOSTRANDO PRODUCTOS =========================
+		// MOSTRANDO PROFESORES =========================
 		function showProduct(){
 			$('.prof-item[category="'+catProduct+'"]').show();
 			$('.prof-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
 		} setTimeout(showProduct,400);
 	});
 
-	// MOSTRANDO TODOS LOS PRODUCTOS =======================
+	// MOSTRANDO TODOS LOS PROFESORES =======================
 
 	$('.category_item[category="all"]').click(function(){
 		function showAll(){
@@ -164,7 +164,7 @@ $(document).ready(function(){
 		} setTimeout(showAll,400);
 	});
 });
-
+//BUSCAR PROFESORES=================
 $(document).ready(function(){
   $("#myInput").on("keyup", function() {
     var value = $(this).val().toLowerCase();
