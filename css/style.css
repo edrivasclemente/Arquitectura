@@ -421,6 +421,57 @@ hr {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+.prof-container{
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+.prof-container h3{
+  position: absolute;
+  bottom: 25px;
+  padding: 0 20px;
+  z-index: 9000;
+  color: #ffffff !important;
+}
+.prof-container h3 a{
+  color: #ffffff !important;
+}
+
+.prof-container span{
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px;
+  z-index: 9000;
+  color: #ffffff !important;
+}
+.prof-container span a{
+  color: #fff700 !important;
+}
+.prof-container span a:hover{
+  color: #ffffff !important;
+}
+
+.btnprofe{
+  background: transparent;
+  border-radius: 36px;
+
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #212529a6 !important;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.activeprof, .btnprofe:hover {
+  background-color: #fff700;
+}
+.btnprofe.focus, .btnprofe:focus {
+  box-shadow: 0 0 black;
+}
+
+
+
 .portafolio-details,
 .carreras-details {
   position: absolute;
@@ -460,6 +511,26 @@ hr {
 .title-recursos{
   font-size: 14px;
 }
+
+/*filtrado*/
+.prof-list{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.prof-item{
+  width: 22%;
+  margin: 10px 10px 15px 10px;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  transition: all .4s;
+}
+/*fin filtrado*/
 
 @media (max-width: 576px) {
   .logo-brand {
@@ -585,7 +656,6 @@ hr {
 .img-recursos{
   width: 160px;
 }
-
 }
 
 @media (max-width: 768px) {
@@ -608,8 +678,6 @@ hr {
     column-count: 1;
     margin-bottom: 25px;
 }
-
-
 }
 
 
@@ -794,3 +862,4 @@ hr {
 	}
 }
 /*fin filtrar html*/
+

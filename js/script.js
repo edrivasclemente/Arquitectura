@@ -143,15 +143,15 @@ $(document).ready(function(){
 		$(this).addClass('ct_item-active');
 
 		// OCULTANDO PRODUCTOS =========================
-		$('.product-item').css('transform', 'scale(0)');
+		$('.prof-item').css('transform', 'scale(0)');
 		function hideProduct(){
-			$('.product-item').hide();
+			$('.prof-item').hide();
 		} setTimeout(hideProduct,400);
 
 		// MOSTRANDO PRODUCTOS =========================
 		function showProduct(){
-			$('.product-item[category="'+catProduct+'"]').show();
-			$('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
+			$('.prof-item[category="'+catProduct+'"]').show();
+			$('.prof-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
 		} setTimeout(showProduct,400);
 	});
 
@@ -159,8 +159,8 @@ $(document).ready(function(){
 
 	$('.category_item[category="all"]').click(function(){
 		function showAll(){
-			$('.product-item').show();
-			$('.product-item').css('transform', 'scale(1)');
+			$('.prof-item').show();
+			$('.prof-item').css('transform', 'scale(1)');
 		} setTimeout(showAll,400);
 	});
 });
@@ -173,3 +173,14 @@ $(document).ready(function(){
     });
   });
 });
+
+//boton activado
+var header = document.getElementById("filtrado");
+var btns = header.getElementsByClassName("btnprofe");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("activeprof");
+  current[0].className = current[0].className.replace(" activeprof", "");
+  this.className += " activeprof";
+  });
+}
