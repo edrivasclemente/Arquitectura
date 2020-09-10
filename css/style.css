@@ -792,3 +792,36 @@ hr {
 }
 /*fin filtrar html*/
 
+/*boton SEARCH*/
+.searchbar{
+  background-color: transparent;
+  }
+
+  .search_input{
+  color: #4f4f4f;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 300px;
+  caret-color:#faff00;
+  transition: width 0.4s linear;
+  }
+
+  .search_icon{
+  height: 35px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration:none;
+  }
+  /*BOTON SEARCH*/
