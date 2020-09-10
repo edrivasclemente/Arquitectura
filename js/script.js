@@ -135,8 +135,8 @@ $(document).ready(function(){
 	// FILTRANDO PROFESORES  ============================================
 
 	$('.category_item').click(function(){
-		var catProduct = $(this).attr('category');
-		console.log(catProduct);
+		var catProf = $(this).attr('category');
+		console.log(catProf);
 
 		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
 		$('.category_item').removeClass('ct_item-active');
@@ -144,15 +144,15 @@ $(document).ready(function(){
 
 		// OCULTANDO PROFESORES =========================
 		$('.prof-item').css('transform', 'scale(0)');
-		function hideProduct(){
+		function hideProf(){
 			$('.prof-item').hide();
-		} setTimeout(hideProduct,400);
+		} setTimeout(hideProf,400);
 
 		// MOSTRANDO PROFESORES =========================
-		function showProduct(){
-			$('.prof-item[category="'+catProduct+'"]').show();
-			$('.prof-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
-		} setTimeout(showProduct,400);
+		function showProf(){
+			$('.prof-item[category="'+catProf+'"]').show();
+			$('.prof-item[category="'+catProf+'"]').css('transform', 'scale(1)');
+		} setTimeout(showProf,400);
 	});
 
 	// MOSTRANDO TODOS LOS PROFESORES =======================
