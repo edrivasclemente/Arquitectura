@@ -166,9 +166,9 @@ $(document).ready(function(){
 });
 //BUSCAR PROFESORES=================
 $(document).ready(function(){
-  $("#myInput").on("keyup", function() {
+  $("#search_input").on("keyup", function() {
     var value = $(this).val().toLowerCase();
-    $("#profe *").filter(function() {
+    $("#prof-list *").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
