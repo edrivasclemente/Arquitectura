@@ -13,6 +13,7 @@ $(document).ready(function(){
 });
 
 //
+
 let modalId = $('#image-gallery');
 
 $(document)
@@ -184,3 +185,26 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " activeprof";
   });
 }
+
+
+//FILTRADO================
+// (function(){
+// 	$(document).ready(function(){
+// 		$(".btn-filtrado").click(function(e){
+// 			e.preventDefault();
+// 			var filtro = $(this).attr("data-filter");
+
+// 			if (filtro == "all") {
+// 				$(".box-img").show(500);
+// 			} else {
+// 				$(".box-img").not("."+filtro).hide(500);
+// 				$(".box-img").filter("."+filtro).show(500);
+// 			}
+// 		});
+
+// 		$("ul li").click(function(){
+// 			$(this).addClass("actProf").siblings().removeClass("actProf");
+// 		});
+// 	});
+// }())
+//FIN FILTRADO============
