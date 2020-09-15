@@ -676,9 +676,6 @@ hr {
     column-count: 1;
     margin-bottom: 25px;
   }
-  .galeria .box-img {
-    width: calc(100px * 2) !important
-}
 .btn-filtrado{
   padding: 10px;
 }
@@ -831,14 +828,13 @@ hr {
   justify-content: center;
 }
 .galeria .box-img {
-  width: calc(100px * 3);
+  width: calc(100px * 2);
   margin: 10px;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.6);
   overflow: hidden;
 }
 
 .galeria .box-img img {
-  /*	vertical-align: top;*/
   cursor: pointer;
   transition: all 0.5s ease;
 }
