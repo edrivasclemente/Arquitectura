@@ -783,6 +783,9 @@ hr {
     width: 100%;
     margin-left: 0px;
   }
+  .galeria .box-img{
+    width: 100% !important;
+  }
 }
 /*fin filtrar html*/
 
