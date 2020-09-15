@@ -574,10 +574,6 @@ hr {
     width: auto;
     height: 250px;
   }
-  .galeria .box-img{
-    height: auto;
-
-  }
 }
 
 @media (min-width: 768px) {
