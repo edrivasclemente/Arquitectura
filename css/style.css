@@ -621,7 +621,7 @@ hr {
     justify-content: center;
   }
   .galeria .box-img {
-    width: calc(100px * 2);
+    width: calc(100px * 3);
   }
 }
 
@@ -724,7 +724,7 @@ hr {
 .galeria h3 {
   text-align: center;
   position: absolute;
-  padding: 0 20px;
+  padding: 0 10px;
   z-index: 9000;
   color: #ffffff !important;
   font-size: 16px;
