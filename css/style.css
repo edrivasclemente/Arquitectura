@@ -766,6 +766,7 @@ hr {
   .category_item {
     width: 100%;
   }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -783,9 +784,7 @@ hr {
     width: 100%;
     margin-left: 0px;
   }
-  .galeria .box-img{
-    width: 100% !important;
-  }
+
 }
 @media screen and (min-width: 350px) {
   .galeria .box-img{
