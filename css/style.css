@@ -461,16 +461,6 @@ hr {
   padding: 10px 20px;
 }
 
-/* .btnprofe {
-  background: transparent;
-  border-radius: 36px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #212529a6 !important;
-  padding: 10px 20px;
-  font-weight: 600;
-} */
-
 .activeprof,
 .btn-filtrado:hover {
   background-color: #fff700;
@@ -593,9 +583,7 @@ hr {
   .padding-cajas {
     padding: 35px 10px !important;
   }
-  /* .padding-recursos {
-    padding: 35px 10px !important;
-  } */
+
   .col-footer {
     margin-bottom: 1.5rem;
   }
@@ -684,6 +672,10 @@ hr {
     column-count: 1;
     margin-bottom: 25px;
   }
+  .galeria .box-img {
+    width: calc(100px * 2) !important;
+
+}
 }
 
 .card-header-t {
