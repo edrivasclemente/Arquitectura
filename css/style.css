@@ -465,8 +465,8 @@ hr {
 .btn-filtrado:hover {
   background-color: #fff700;
 }
-.btnprofe.focus,
-.btnprofe:focus {
+.btn-filtrado.focus,
+.btn-filtrado:focus {
   box-shadow: 0 0 black;
 }
 
@@ -650,6 +650,10 @@ hr {
   .img-recursos {
     width: 160px;
   }
+  .filtrado ul{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -673,8 +677,10 @@ hr {
     margin-bottom: 25px;
   }
   .galeria .box-img {
-    width: calc(100px * 2) !important;
-
+    width: calc(100px * 2) !important
+}
+.btn-filtrado{
+  padding: 10px;
 }
 }
 
