@@ -128,83 +128,83 @@ $(document).ready(function(){
 
 //filtrar html
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-	// AGREGANDO CLASE ACTIVE AL PRIMER ENLACE ====================
-	$('.category_list .category_item[category="all"]').addClass('ct_item-active');
+// 	// AGREGANDO CLASE ACTIVE AL PRIMER ENLACE ====================
+// 	$('.category_list .category_item[category="all"]').addClass('ct_item-active');
 
-	// FILTRANDO PROFESORES  ============================================
+// 	// FILTRANDO PROFESORES  ============================================
 
-	$('.category_item').click(function(){
-		var catProf = $(this).attr('category');
-		console.log(catProf);
+// 	$('.category_item').click(function(){
+// 		var catProf = $(this).attr('category');
+// 		console.log(catProf);
 
-		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
-		$('.category_item').removeClass('ct_item-active');
-		$(this).addClass('ct_item-active');
+// 		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
+// 		$('.category_item').removeClass('ct_item-active');
+// 		$(this).addClass('ct_item-active');
 
-		// OCULTANDO PROFESORES =========================
-		$('.prof-item').css('transform', 'scale(0)');
-		function hideProf(){
-			$('.prof-item').hide();
-		} setTimeout(hideProf,400);
+// 		// OCULTANDO PROFESORES =========================
+// 		$('.prof-item').css('transform', 'scale(0)');
+// 		function hideProf(){
+// 			$('.prof-item').hide();
+// 		} setTimeout(hideProf,400);
 
-		// MOSTRANDO PROFESORES =========================
-		function showProf(){
-			$('.prof-item[category="'+catProf+'"]').show();
-			$('.prof-item[category="'+catProf+'"]').css('transform', 'scale(1)');
-		} setTimeout(showProf,400);
-	});
+// 		// MOSTRANDO PROFESORES =========================
+// 		function showProf(){
+// 			$('.prof-item[category="'+catProf+'"]').show();
+// 			$('.prof-item[category="'+catProf+'"]').css('transform', 'scale(1)');
+// 		} setTimeout(showProf,400);
+// 	});
 
-	// MOSTRANDO TODOS LOS PROFESORES =======================
+// 	// MOSTRANDO TODOS LOS PROFESORES =======================
 
-	$('.category_item[category="all"]').click(function(){
-		function showAll(){
-			$('.prof-item').show();
-			$('.prof-item').css('transform', 'scale(1)');
-		} setTimeout(showAll,400);
-	});
-});
-//BUSCAR PROFESORES=================
-$(document).ready(function(){
-  $("#search_input").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#prof-list *").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
+// 	$('.category_item[category="all"]').click(function(){
+// 		function showAll(){
+// 			$('.prof-item').show();
+// 			$('.prof-item').css('transform', 'scale(1)');
+// 		} setTimeout(showAll,400);
+// 	});
+// });
+// //BUSCAR PROFESORES=================
+// $(document).ready(function(){
+//   $("#search_input").on("keyup", function() {
+//     var value = $(this).val().toLowerCase();
+//     $("#prof-list *").filter(function() {
+//       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+//     });
+//   });
+// });
 
 //boton activado
 var header = document.getElementById("filtrado");
-var btns = header.getElementsByClassName("btnprofe");
+var btns = header.getElementsByClassName("btn-filtrado");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("activeprof");
-  current[0].className = current[0].className.replace(" activeprof", "");
-  this.className += " activeprof";
-  });
+btns[i].addEventListener("click", function() {
+var current = document.getElementsByClassName("activeprof");
+current[0].className = current[0].className.replace(" activeprof", "");
+this.className += " activeprof";
+});
 }
 
 
 //FILTRADO================
-// (function(){
-// 	$(document).ready(function(){
-// 		$(".btn-filtrado").click(function(e){
-// 			e.preventDefault();
-// 			var filtro = $(this).attr("data-filter");
+(function(){
+	$(document).ready(function(){
+		$(".btn-filtrado").click(function(e){
+			e.preventDefault();
+			var filtro = $(this).attr("data-filter");
 
-// 			if (filtro == "all") {
-// 				$(".box-img").show(500);
-// 			} else {
-// 				$(".box-img").not("."+filtro).hide(500);
-// 				$(".box-img").filter("."+filtro).show(500);
-// 			}
-// 		});
+			if (filtro == "all") {
+				$(".box-img").show(500);
+			} else {
+				$(".box-img").not("."+filtro).hide(500);
+				$(".box-img").filter("."+filtro).show(500);
+			}
+		});
 
-// 		$("ul li").click(function(){
-// 			$(this).addClass("actProf").siblings().removeClass("actProf");
-// 		});
-// 	});
-// }())
+		$("ul li").click(function(){
+			$(this).addClass("actProf").siblings().removeClass("actProf");
+		});
+	});
+}())
 //FIN FILTRADO============

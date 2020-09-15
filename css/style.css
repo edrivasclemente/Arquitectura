@@ -451,19 +451,28 @@ hr {
   color: #ffffff !important;
 }
 
-.btnprofe {
+.btn-filtrado{
+  color: #212529a6 !important;
+  text-transform: uppercase;
+  background: transparent;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-radius: 36px;
+  padding: 10px 20px;
+}
+
+/* .btnprofe {
   background: transparent;
   border-radius: 36px;
-
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #212529a6 !important;
   padding: 10px 20px;
   font-weight: 600;
-}
+} */
 
 .activeprof,
-.btnprofe:hover {
+.btn-filtrado:hover {
   background-color: #fff700;
 }
 .btnprofe.focus,
