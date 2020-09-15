@@ -575,7 +575,7 @@ hr {
     height: 250px;
   }
   .galeria .box-img{
-    width: auto;
+    height: auto;
 
   }
 }
