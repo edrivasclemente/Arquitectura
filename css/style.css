@@ -787,6 +787,11 @@ hr {
     width: 100% !important;
   }
 }
+@media screen and (min-width: 350px) {
+  .galeria .box-img{
+    width: 100% !important;
+  }
+}
 /*fin filtrar html*/
 
 /*boton SEARCH*/
