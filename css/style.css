@@ -621,7 +621,7 @@ hr {
     justify-content: center;
   }
   .galeria .box-img {
-    width: calc(100px * 3);
+    width: calc(100px * 2.5);
   }
 }
 
@@ -712,7 +712,7 @@ hr {
   /* box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.6); */
   overflow: hidden;
 }
-.galeria .box-img::after {
+/* .galeria .box-img::after {
 position: absolute;
 content: '';
 display: block;
@@ -720,7 +720,7 @@ widows: 100%;
 bottom: 0;
 height: 75px;
 background: linear-gradient(0, rgba(0,0,0,0.6), transparent);
-}
+} */
 .galeria .box-img img {
   cursor: pointer;
   transition: all 0.5s ease;
