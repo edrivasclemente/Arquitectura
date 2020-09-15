@@ -759,7 +759,6 @@ hr {
 }
 /* FIN BOTON SEARCH*/
 
-/*FILTRADO*/
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -801,4 +800,3 @@ hr {
 .galeria a{
   color: #faff00 !important;
 }
-/*FIN FILTRADO*/
