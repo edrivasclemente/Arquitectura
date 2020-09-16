@@ -709,7 +709,7 @@ hr {
 }
 .galeria .box-img {
   margin: 10px;
-  /* box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.6); */
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.6);
   overflow: hidden;
 }
 /* .galeria .box-img::after {
