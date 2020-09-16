@@ -712,15 +712,7 @@ hr {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.6);
   overflow: hidden;
 }
-/* .galeria .box-img::after {
-position: absolute;
-content: '';
-display: block;
-widows: 100%;
-bottom: 0;
-height: 75px;
-background: linear-gradient(0, rgba(0,0,0,0.6), transparent);
-} */
+
 .galeria .box-img img {
   cursor: pointer;
   transition: all 0.5s ease;
@@ -728,8 +720,6 @@ background: linear-gradient(0, rgba(0,0,0,0.6), transparent);
 .galeria .box-img img:hover {
   transform: scale(1.2);
 }
-
-
 
 .galeria h3 {
   text-align: center;
