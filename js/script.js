@@ -208,3 +208,12 @@ this.className += " activeprof";
 	});
 }())
 //FIN FILTRADO============
+
+//SLIDER===========
+$(document).ready(function() {
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
+});
+//FIN SLIDER=======
