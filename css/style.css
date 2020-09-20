@@ -475,7 +475,10 @@ hr {
   font-size: 18px;
   line-height: 2;
 }
-
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
 
 .ver-perfil {
   font-size: 14px;
