@@ -662,6 +662,7 @@ hr {
 .card-header-t {
   background-color: transparent;
   padding-left: 0;
+  margin-bottom: 0 !important;
 }
 .card-header-t .btn {
   font-size: 16px;
