@@ -178,7 +178,7 @@ hr {
   border: 1px solid #666666;
 }
 .padding-cajas {
-  padding: 80px 16px !important;
+  padding: 80px 16px 0 !important;
 }
 .padding-recursos {
   padding: 35px 16px !important;
