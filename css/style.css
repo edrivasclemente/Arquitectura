@@ -585,6 +585,16 @@ hr {
   }
 }
 
+.galeria .box-img:after{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  bottom: 0;
+  height: 75px;
+  background: linear-gradient(0, rgba(0,0,0,0.6),transparent);
+}
+
 @media (min-width: 768px) {
   .carousel-control-prev,
   .carousel-control-next {
