@@ -285,7 +285,7 @@ hr {
   content: url(/img/Vector11.svg);
   position: absolute;
   z-index: -1;
-  left: 83px;
+  left: 73px;
   width: 580px;
 }
 
@@ -777,61 +777,6 @@ hr {
   color: #faff00 !important;
 }
 
-/*SLIDER*/
-/* carousel */
-.media-carousel 
-{
-  margin-bottom: 0;
-  padding: 0 40px 30px 40px;
-  margin-top: 30px;
-}
-/* Previous button  */
-.media-carousel .carousel-control.left 
-{
-  left: -12px;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px 23px 23px 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px
-}
-/* Next button  */
-.media-carousel .carousel-control.right 
-{
-  right: -12px !important;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px 23px 23px 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px
-}
-/* Changes the position of the indicators */
-.media-carousel .carousel-indicators 
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the colour of the indicators */
-.media-carousel .carousel-indicators li 
-{
-  background: #c0c0c0;
-}
-.media-carousel .carousel-indicators .active 
-{
-  background: #333333;
-}
-.media-carousel img
-{
-  width: 250px;
-  height: 100px
-}
-/* End carousel */
 /*FIN SLIDER*/
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #000000;
