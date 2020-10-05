@@ -544,14 +544,14 @@ hr {
   .bgcarrera {
     margin-bottom: 20px;
   }
-  .title-carrera {
+  /* .title-carrera {
     position: initial;
     bottom: 0;
     z-index: 9000;
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
-  }
+  } */
   .col-img-carrera {
     margin-bottom: 25px;
   }
@@ -573,11 +573,11 @@ hr {
   .col-footer {
     margin-bottom: 1.5rem;
   }
-  .flecha-carreras {
+  /* .flecha-carreras {
     position: initial;
     padding-top: 15px;
     margin-bottom: 0px;
-  }
+  } */
   .carreras-details {
     position: initial;
   }
@@ -670,6 +670,8 @@ hr {
   }
   .bgcarrera .carreras-details {
     background-color: #faff00;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .historia {
     column-count: 1;
