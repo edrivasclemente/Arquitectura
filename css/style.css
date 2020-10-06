@@ -306,7 +306,7 @@ hr {
 }
 .carousel-control-prev,
 .carousel-control-next {
-  width: 150px;
+  width: 100px;
   color: #000000 !important;
   font-size: 30px;
   display: flex;
