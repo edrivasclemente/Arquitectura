@@ -691,6 +691,10 @@ hr {
 
 }
 @media (max-width: 576px) {
+  .carousel-item img,
+.img-bienvenido {
+  display: none !important;
+}
   .logo-brand {
     width: 200px;
   }
@@ -749,11 +753,6 @@ hr {
   .col-footer {
     margin-bottom: 1.5rem;
   }
-  /* .flecha-carreras {
-    position: initial;
-    padding-top: 15px;
-    margin-bottom: 0px;
-  } */
   .carreras-details {
     position: initial;
   }
@@ -773,16 +772,5 @@ hr {
 @media (min-width: 567px) and (max-width: 767px) {
   .galeria .box-img {
     width: 45%;
-}
-/* .carousel-item img,
-.img-bienvenido {
-  display: none !important;
-} */
-}
-
-@media (max-width: 567px){
-.carousel-item img,
-.img-bienvenido {
-  display: none !important;
 }
 }
