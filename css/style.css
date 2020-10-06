@@ -309,7 +309,10 @@ hr {
   width: 150px;
   color: #000000 !important;
   font-size: 30px;
+  display: flex;
+  align-items: flex-end;
 }
+
 .portfolio-container {
   position: relative;
   overflow: hidden;
@@ -633,11 +636,7 @@ hr {
 }
 
 @media (min-width: 768px) {
-  /* .carousel-control-prev,
-  .carousel-control-next {
-    display: flex;
-    align-items: flex-end;
-  } */
+
   .bgcontainer h2 {
     font-size: 55px;
   }
