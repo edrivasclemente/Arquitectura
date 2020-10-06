@@ -633,11 +633,11 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .carousel-control-prev,
+  /* .carousel-control-prev,
   .carousel-control-next {
     display: flex;
     align-items: flex-end;
-  }
+  } */
   .bgcontainer h2 {
     font-size: 55px;
   }
