@@ -771,6 +771,10 @@ hr {
     width: auto;
     height: 250px;
   }
+
+}
+
+@media (min-width: 567px) and (max-width: 767px) {
   .galeria .box-img {
     width: 45%;
 }
