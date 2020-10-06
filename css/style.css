@@ -731,11 +731,11 @@ hr {
   .col-img-carrera {
     margin-bottom: 25px;
   }
-  .carousel-control-prev,
+  /* .carousel-control-prev,
   .carousel-control-next {
     display: flex;
     align-items: flex-end;
-  }
+  } */
   .body-card {
     text-align: center;
   }
@@ -774,6 +774,13 @@ hr {
   .galeria .box-img {
     width: 45%;
 }
+/* .carousel-item img,
+.img-bienvenido {
+  display: none !important;
+} */
+}
+
+@media (max-width: 567px){
 .carousel-item img,
 .img-bienvenido {
   display: none !important;
