@@ -610,10 +610,10 @@ hr {
   .flecha-carreras {
     position: initial;
   }
-  .img-bienvenido {
+  /* .img-bienvenido {
     justify-content: initial;
     display: grid;
-  }
+  } */
   .bgcarrera,
   .col-img-carrera {
     margin-bottom: 1rem;
@@ -715,9 +715,9 @@ hr {
     font-size: 45px;
     line-height: 60px;
   }
-  .img-bienvenido {
+  /* .img-bienvenido {
     margin-bottom: 15px;
-  }
+  } */
   .bgcarrera {
     margin-bottom: 20px;
   }
@@ -762,10 +762,7 @@ hr {
   .secretaria .card-body {
     text-align: center;
   }
-  .carousel-item img,
-  .img-bienvenido {
-    display: none !important;
-  }
+ 
   .director img,
   .secretaria img {
     width: auto;
@@ -777,5 +774,9 @@ hr {
 @media (min-width: 567px) and (max-width: 767px) {
   .galeria .box-img {
     width: 45%;
+}
+.carousel-item img,
+.img-bienvenido {
+  display: none !important;
 }
 }
