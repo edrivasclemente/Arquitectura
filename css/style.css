@@ -91,8 +91,8 @@ a:hover {
   font-size: 14px;
   font-weight: 600;
 }
-.menu-superior a {
-  color: #ffffff !important;
+.menu-superior .list-inline-item a {
+  color: #ffffff;
   position: relative;
 }
 .menu-superior .fab,
