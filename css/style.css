@@ -37,7 +37,7 @@ h3 {
   font-weight: 700;
 }
 a {
-  color: #0062cc !important;
+  color: #0062cc;
 }
 a:hover {
   text-decoration: none;
