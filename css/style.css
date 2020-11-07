@@ -595,9 +595,9 @@ hr {
   .menu-superiora {
     margin-bottom: 0px;
   }
-  .title-esc {
+  /* .title-esc {
     margin-bottom: 5rem;
-  }
+  } */
   .col-img-carrera {
     padding-left: 0;
   }
@@ -634,10 +634,10 @@ hr {
   .logo-brand {
     width: 200px;
   }
-  .title-esc {
+  /* .title-esc {
     padding-left: initial;
     padding-right: initial;
-  }
+  } */
   .bgcontainer,
   .bgcontainer-mov,
   .bgcontainer-proy {
