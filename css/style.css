@@ -157,14 +157,13 @@ hr {
   z-index: 9000;
 } */
 .title-esc {
-  padding-left: 30px;
-  margin-top: 80px;
+  padding:80px 30px;
   position: relative;
   letter-spacing: 3px;
 }
 .title-esc h1 {
   color: #ffffff !important;
-  padding-bottom: 20px;
+  padding-bottom: 20px;  
   margin-bottom: 0px;
   line-height: 80px;
 }
